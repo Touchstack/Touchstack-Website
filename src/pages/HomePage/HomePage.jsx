@@ -5,6 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <NavBar />
+      <p className="p-10 text-2xl">Home page</p>
     </div>
   );
 };
