@@ -10,17 +10,16 @@ import Careers from "./pages/CareersPage/CareersPage.jsx";
 import FindUsPage from "./pages/FindUsPage/FindUsPage.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from "./App.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
   { path: "/", element: <SalesInventoryPage />, errorElement: <ErrorPage /> },
   { path: "/", element: <HumanResourcePage />, errorElement: <ErrorPage /> },
-  { path: "/", element: <Solutions />, errorElement: <ErrorPage /> },
-  { path: "/", element: <AboutUsPage />, errorElement: <ErrorPage /> },
-  { path: "/", element: <Careers />, errorElement: <ErrorPage /> },
-  { path: "/", element: <FindUsPage />, errorElement: <ErrorPage /> },
+  { path: "solutions/", element: <Solutions />, errorElement: <ErrorPage /> },
+  { path: "aboutus/", element: <AboutUsPage />, errorElement: <ErrorPage /> },
+  { path: "careers/", element: <Careers />, errorElement: <ErrorPage /> },
+  { path: "findus/", element: <FindUsPage />, errorElement: <ErrorPage /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

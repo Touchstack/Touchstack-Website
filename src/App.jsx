@@ -1,6 +1,7 @@
-import HomePage from "./pages/HomePage/HomePage";
+import StartProject from "./components/Homepage/StartProject/StartProject";
+
 
 const App = () => {
-  return <HomePage />;
+  return <StartProject />;
 };
 export default App;
