@@ -19,6 +19,14 @@ export default {
         MontSemiBold: ["Montserrat-SemiBold", "sans-serif"],
         MontMedium: ["Montserrat-Medium", "sans-serif"],
       },
+
+      colors: {
+        touchSblack: "#1A1818",
+        touchLightBlue: "##2EFFE1",
+        touchSLightGrey: "#101010",
+        touchSDeepGrey: "#292A2C",
+        footerHover: "#2EFFE1",
+      },
     },
   },
 

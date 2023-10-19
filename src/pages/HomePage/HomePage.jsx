@@ -1,13 +1,13 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import NavBar from "../../components/Homepage/NavBar";
+import Footer from "../../components/Homepage/Footer";
 
 const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <p className="p-10 text-2xl">Home page</p>
+      <Footer />
     </div>
   );
 };
-
 export default HomePage;
