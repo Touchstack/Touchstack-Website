@@ -13,7 +13,7 @@ export default {
         Regular: ["EncodeSans-Regular", "sans-serif"],
         SemiBold: ["EncodeSans-SemiBold", "sans-serif"],
         Thin: ["EncodeSans-Thin", "sans-serif"],
-        Light: ["Montserrat-Light", "sans-serif"],
+        MontLight: ["Montserrat-Light", "sans-serif"],
         MontRegular: ["Montserrat-Regular", "sans-serif"],
         MontBold: ["Montserrat-Bold", "sans-serif"],
         MontSemiBold: ["Montserrat-SemiBold", "sans-serif"],
