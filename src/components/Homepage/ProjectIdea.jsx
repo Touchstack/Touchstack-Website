@@ -1,7 +1,7 @@
 import React from "react";
 const GreenBoxComponent = () => {
   return (
-    //class="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
+    //className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
     <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg">
       <div className=" flex-col justify-center py-8 px-8">
         <h3 className="lg:text-4xl md:text-3xl text-3xl text-black font-Bold mb-4 tracking-wider items-center ">
