@@ -2,9 +2,10 @@ import React from "react";
 const GreenBoxComponent = () => {
   return (
     //className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
+    <div className="bg-black">
     <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg">
       <div className=" flex-col justify-center py-8 px-8">
-        <h3 className="lg:text-4xl md:text-3xl text-3xl text-black font-Bold mb-4 tracking-wider items-center ">
+        <h3 className="lg:text-4xl md:text-3xl text-3xl text-black font-EncodeBold mb-4 tracking-wider items-center ">
           Got a project idea? Let us discuss the possibilities
         </h3>
         <h4 className="text-black text-lg mb-2 items-center">
@@ -16,14 +17,14 @@ const GreenBoxComponent = () => {
           className="bg-white 
     
           rounded-md py-2 px-4 hover:bg-gray-300 cursor-pointer 
-          flex flex-col place-self-start mt-8 font-appRegular 
+          flex flex-col place-self-start mt-8 font-EncodeRegular 
           lg:mb-16 space-y-4 sm:flex-row sm:justify-center 
           sm:space-y-0 sm:space-x-4 
           transition-transform 
           duration-700 ease-in-out
            transform hover:scale-110 inline-flex 
            justify-center items-center py-4 lg:px-16 md:px-14
-            sm:px-10 px-8 text-lg font-medium text-black rounded-lg"
+            sm:px-10 px-8 text-lg font-EncodeMedium text-black rounded-lg"
         >
           Start a project{" "}
           <svg
@@ -54,7 +55,7 @@ const GreenBoxComponent = () => {
         alt="Right-Aligned Image"
         className="py-8 md:py-16 lg:py-16 rounded-lg"
       />
-    </div>
+    </div></div>
   );
 };
 
