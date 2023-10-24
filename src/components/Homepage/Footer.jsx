@@ -68,7 +68,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/"
+                      href="/solutions"
                     >
                       Early stage
                     </a>
@@ -76,7 +76,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/"
+                      href="/solutions"
                     >
                       Scale or growth
                     </a>
