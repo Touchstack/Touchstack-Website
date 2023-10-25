@@ -45,7 +45,7 @@ const Team = () => (
     <TeamMember
       name="Susanna Afful"
       role="Front End Developer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/3f9d598e7106be0c7799c1759479b5b655bb62d0/406ee/images/susan.jpg"
+      imageSrc="src/assets/images/susan.jpg"
       linkedInLink="https://www.linkedin.com/in/susanafful/"
     
     />
