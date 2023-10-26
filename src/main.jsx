@@ -8,8 +8,12 @@ import AboutUsPage from "./pages/AboutUsPage/AboutUsPage.jsx";
 import Careers from "./pages/CareersPage/CareersPage.jsx";
 import FindUsPage from "./pages/FindUsPage/FindUsPage.jsx";
 import SolutionsPage from "./pages/SolutionsPage/SolutionsPage.jsx";
+import BlogPage from "./pages/BlogPage/BlogPage.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import ArticlePage from "./pages/BlogPage/ArticlePage.jsx";
+
+
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
@@ -23,6 +27,16 @@ const router = createBrowserRouter([
   {
     path: "solutions/",
     element: <SolutionsPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/blog",
+    element: <BlogPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/article",
+    element: <ArticlePage />,
     errorElement: <ErrorPage />,
   },
 ]);
