@@ -8,7 +8,7 @@ const GreenBoxComponent = () => {
           <h3 className="lg:text-4xl md:text-3xl text-3xl text-black font-EncodeBold mb-4 tracking-wider items-center ">
             Got a project idea? Let us discuss the possibilities
           </h3>
-          <h4 className="text-black text-lg mb-2 items-center">
+          <h4 className="text-black text-lg mb-2 items-center font-EncodeRegular">
             We build quality softwares and architecture solutions for businesses
             that care about quality, good user experience, scalability and
             profitability.

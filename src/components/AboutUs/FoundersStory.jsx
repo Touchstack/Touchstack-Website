@@ -9,7 +9,7 @@ const FoundersStory = () => {
           <h1 className="justify-center py-5 px-10 font-EncodeBold text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-6xl md:text-5xl text-5xl mt-12">
             About Us
           </h1>
-          <p className="text-[#8A8A8A] text-[18px] py-5 px-10 text-justify">
+          <p className="text-[#8A8A8A] text-[18px] py-5 px-10 text-justify font-EncodeRegular">
             Our startup is fueled by a passion for creating exceptional digital
             products using cutting-edge technology. With a focus on software
             development and efficient engineering processes, we have established
@@ -30,9 +30,9 @@ const FoundersStory = () => {
         </div>
 
         <div className="mt-12 flex lg:justify-start justify-center items-center lg:p-0 md:p-0 p-8">
-          <img src="src/assets/images/founder.jpg" alt="Founders' Pic" />
+          <img src="https://d33wubrfki0l68.cloudfront.net/21f17c9729118dcd28d79acd5952a141284ed2ad/41bfc/images/founder.jpg" alt="Founders' Pic" />
         </div>
-        <div className="" /*founders' section*/>
+        <div className="font-EncodeRegular" /*founders' section*/>
           <h1 className="mt-6 py-5 px-10 font-ExtraLight justify-center text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-6xl md:text-5xl text-5xl">
             Founders' story
           </h1>
@@ -73,7 +73,7 @@ const FoundersStory = () => {
       </div>
 
       <div className="bg-[#383434] lg:pb-32 pb-24 bg-auto">
-        <h1 className="p-[8%] text-center font-ExtraBold text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] text-5xl justify-center">
+        <h1 className="p-[8%] text-center font-EncodeBold text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] text-5xl justify-center">
           Meet the Team
         </h1>
         <Team />

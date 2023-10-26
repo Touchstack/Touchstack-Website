@@ -3,9 +3,9 @@ import React from "react";
 const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
   <div className="flex flex-col justify-center items-start text-white py-3 px-5 card">
     <img src={imageSrc} alt={`${name}'s photo`} className="sm:h-object-cover" />
-    <p className="text-left text-xl font-ExtraBold pt-4">{name}</p>
+    <p className="text-left text-xl font-EncodeMedium pt-4">{name}</p>
     <p className="text-[#8A8A8A] font-EncodeRegular text-left py-3">{role}</p>
-    <a href={linkedInLink} target="_blank" className="text-[#2EFFE1]">
+    <a href={linkedInLink} target="_blank" className="text-[#2EFFE1] bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] rounded-lg">
       {
         <svg
           width="32"
@@ -14,7 +14,7 @@ const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect width="32" height="32" rx="10" fill="white" />
+          <rect width="32" height="32" rx="10" fill="[#7DEE53]" />
           <path
             d="M20 11.5C21.5913 11.5 23.1174 12.1321 24.2426 13.2574C25.3679 14.3826 26 15.9087 26 17.5V24.5H22V17.5C22 16.9696 21.7893 16.4609 21.4142 16.0858C21.0391 15.7107 20.5304 15.5 20 15.5C19.4696 15.5 18.9609 15.7107 18.5858 16.0858C18.2107 16.4609 18 16.9696 18 17.5V24.5H14V17.5C14 15.9087 14.6321 14.3826 15.7574 13.2574C16.8826 12.1321 18.4087 11.5 20 11.5V11.5Z"
             stroke="#292A2C"
@@ -71,7 +71,7 @@ const Team = () => (
     <TeamMember
       name="Susanna Afful"
       role="Front End Developer"
-      imageSrc="src/assets/images/susan.jpg"
+      imageSrc="https://d33wubrfki0l68.cloudfront.net/a2c64ae40e9a907a583c44af68b254642d074ea3/3ad86/images/susan.jpg"
       linkedInLink="https://www.linkedin.com/in/susanafful/"
     />
     <TeamMember
