@@ -1,10 +1,12 @@
 import React from "react";
+import RightImage from "../../assets/images/image.svg"
+
 const GreenBoxComponent = () => {
   return (
     //className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
-    <div className="bg-[#1A1919]">
+    <div className="bg-[#383434]">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg">
-        <div className=" flex-col justify-center py-8 px-8">
+        <div className=" flex-col justify-center py-8 px-8 ">
           <h3 className="lg:text-4xl md:text-3xl text-3xl text-black font-EncodeBold mb-4 tracking-wider items-center ">
             Got a project idea? Let us discuss the possibilities
           </h3>
@@ -51,7 +53,7 @@ const GreenBoxComponent = () => {
           </button>
         </div>
         <img
-          src="https://d33wubrfki0l68.cloudfront.net/a9935a912905ded72983e2e77f7e907760703a37/423a8/images/image.svg" // Replace with your image URL
+          src={RightImage} 
           alt="Right-Aligned Image"
           className="py-8 md:py-16 lg:py-16 rounded-lg"
         />

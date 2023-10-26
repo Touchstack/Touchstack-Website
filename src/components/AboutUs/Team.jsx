@@ -1,4 +1,14 @@
 import React from "react";
+import Brian from "../../assets/images/brian.jpg"
+import Ben from "../../assets/images/ben.jpg";
+import Eugene from "../../assets/images/Eugene.jpg"
+import Abdul from "../../assets/images/abdul.jpg"
+import Susanna from "../../assets/images/susan.jpg"
+import Derrick from "../../assets/images/derrick.jpeg"
+import Jemima from "../../assets/images/dede.jpeg"
+
+
+
 
 const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
   <div className="flex flex-col justify-center items-start text-white py-3 px-5 card">
@@ -47,43 +57,43 @@ const Team = () => (
     <TeamMember
       name="Brian Adjei-Otchwemah"
       role="Founder"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/ed2580d25a0dc8da2fe4d7d162156fe5cd2dac3e/e911a/images/brian.jpg"
+      imageSrc={Brian}
       linkedInLink="https://www.linkedin.com/in/brian-adjei-otchwemah-ba213a9a/"
     />
     <TeamMember
       name="Benjamin David Adjimah"
       role="Software Engineer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/8f0a9e72c368fb98ba91bf518261f48bf5a35038/5189b/images/ben.jpg"
+      imageSrc={Ben}
       linkedInLink="https://www.linkedin.com/in/benjamin-david-adjimah-5bb5a69b"
     />
     <TeamMember
       name="Eugene Sedem Dumoga"
       role="Software Engineer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/46daeb0a0f9f5ff6a7df15854167f30165abfb4a/38cca/images/eugene.jpg"
+      imageSrc={Eugene}
       linkedInLink="https://www.linkedin.com/in/eugene-dumoga/"
     />
     <TeamMember
       name="Abdul Ilah Amankwa Isshaq"
       role="Back End Developer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/124e3ab6ad475de5617e67215c4db534e368f858/6e993/images/abdul.jpg"
+      imageSrc={Abdul}
       linkedInLink="https://www.linkedin.com/in/abdul-illah-isshaq-amankwah-61a0b024b"
     />
     <TeamMember
       name="Susanna Afful"
       role="Front End Developer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/a2c64ae40e9a907a583c44af68b254642d074ea3/3ad86/images/susan.jpg"
+      imageSrc={Susanna}
       linkedInLink="https://www.linkedin.com/in/susanafful/"
     />
     <TeamMember
       name="Derrick Amenuve"
       role="Product/UX Designer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/3f9d598e7106be0c7799c1759479b5b655bb62d0/406ee/images/derrick.jpeg"
+      imageSrc={Derrick}
       linkedInLink="https://www.linkedin.com/in/derrickamenuve/"
     />
     <TeamMember
       name="Jemima Cole"
       role="Web Designer & Content Developer"
-      imageSrc="https://d33wubrfki0l68.cloudfront.net/8935e6384079f073f9eb8c6c6b54338f8a063eb4/a60bd/images/dede.jpeg"
+      imageSrc={Jemima}
       linkedInLink="https://www.linkedin.com/in/jemimacole/"
     />
   </div>

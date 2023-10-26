@@ -1,5 +1,6 @@
 import React from "react";
 import Team from "./Team";
+import GreenBoxComponent from "../../components/Homepage/ProjectIdea";
 
 const FoundersStory = () => {
   return (
@@ -84,10 +85,11 @@ const FoundersStory = () => {
           </h1>
         </div>
         <div className="flex justify-center items-center">
-          <button className="mt-[5%] items-center text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-EncodeMedium rounded-lg text-lg px-8 py-2 text-center mr-2 mb-16">
+          <button className="mt-[5%] items-center text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-EncodeMedium rounded-lg text-lg px-8 py-2 text-center mr-2 mb-8">
             Join Us
           </button>
         </div>
+        <GreenBoxComponent className=""/>
       </div>
     </div>
   );

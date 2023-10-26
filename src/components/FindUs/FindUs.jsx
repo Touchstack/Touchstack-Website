@@ -2,7 +2,7 @@ import React from "react";
 
 const FindUs = () => {
   return (
-    <section className="bg-cover bg-no-repeat bg-[url('images/bg-contact.png')] rounded-none">
+    <section className="bg-cover bg-gray-900 bg-no-repeat bg-[url('images/bg-contact.png')] rounded-none">
       <div className="flex flex-row justify-between items-center py-24 ">
         {/* FORM */}
         <div className="flex flex-col lg:pl-32 lg:w-9/12 w-full">
