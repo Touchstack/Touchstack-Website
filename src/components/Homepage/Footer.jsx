@@ -29,7 +29,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/"
+                      href="/aboutus"
                     >
                       About
                     </a>
@@ -53,7 +53,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/"
+                      href="/findus"
                     >
                       Contact Us
                     </a>

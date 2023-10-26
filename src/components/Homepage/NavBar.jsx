@@ -174,7 +174,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="/contact.html"
+                href="/findus"
                 className="text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-medium rounded-lg text-sm px-2 py-2 text-center mr-2 mb-2"
               >
                 Contact
