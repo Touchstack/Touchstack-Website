@@ -82,7 +82,7 @@ const BlogPage = () => {
                 </div>
               </div>
               <div>
-                <img className="rounded-3xl" src={Award} alt="" />
+                <img className="rounded-3xl mt-4" src={Award} alt="" />
               </div>
             </div>
           </div>
