@@ -70,10 +70,10 @@ const HomePage = () => {
       <div className="">
         <section className="lg:h-[800px] md:h-[700px] h-[600px] bg-[url('./images/hero_bg.jpg')] bg-auto">
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-            <h1 className="mb-8 text-4xl font-extrabold leading-none text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-8 text-4xl font-ExtraBold leading-none text-white md:text-5xl lg:text-6xl">
               Building scalable software for industry leading brands
             </h1>
-            <p className="mb-8 text-lg font-normal text-[#8A8A8A] lg:text-xl sm:px-16 xl:px-48">
+            <p className="mb-8 text-lg font-EncodeRegular text-[#8A8A8A] lg:text-xl sm:px-16 xl:px-48">
               We build quality software and architecture solutions for
               businesses that care about quality, good user experience,
               scalability and profitability.
@@ -81,7 +81,7 @@ const HomePage = () => {
             <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
                 href="/"
-                className="font-appRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
+                className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
               >
                 Start a project
                 <svg
@@ -119,7 +119,7 @@ const HomePage = () => {
                 <img src={CodeImage} alt="" />
               </div>
               <div className="mx-auto my-16">
-                <p className="text-center text-3xl text-white md:text-3xl lg:text-4xl">
+                <p className="text-center text-3xl text-white md:text-3xl lg:text-4xl font-EncodeRegular">
                   Built softwares for over 20 businesses worldwide
                 </p>
               </div>
@@ -145,7 +145,7 @@ const HomePage = () => {
           </div>
           <div className="mt-[10%] text-center">
             <h2 className="text-4xl md:text-5xl lg:text-5xl font-EncodeBold lg:px-96 md:px-72 px-14 pb-8 text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] text-[45px]">
-              Domain knowledge in different imdustries
+              Domain knowledge in different industries
             </h2>
           </div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-16 py-16">
@@ -199,7 +199,7 @@ const HomePage = () => {
       <section className="bg-[#1A1919] lg:pb-32 pb-24">
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-x-8 gap-y-4 px-16 lg:py-32 md:py-32 lg:pb-36 md:pb-36 pb-24">
           <div className="mt-4">
-            <p className="text-[#8A8A8A] lg:text-xl text-lg">
+            <p className="text-[#8A8A8A] lg:text-xl text-lg font-EncodeRegular">
               USING THE BEST TOOLS FOR THE JOB
             </p>
             <h1 className="mb-8 font-EncodeSemiBold text-white md:text-4xl lg:text-6xl">
@@ -305,7 +305,7 @@ const HomePage = () => {
           className="flex justify-center items-center py-32"
           id="testimonials"
         >
-          <div className="border border-[#706868] rounded-[15px] self-center lg:w-7/12 md:w-9/12 w-10/12">
+          <div className="border border-[#706868] rounded-[15px] self-center lg:w-7/12 md:w-9/12 w-10/12 font-EncodeSemiBold">
             <p className="lg:text-4xl md:text-4xl text-2xl font-appSemiBold text-center lg:px-24 md:px-18 px-16 mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] mt-10 mb-10">
               {testimonial?.text}
             </p>
