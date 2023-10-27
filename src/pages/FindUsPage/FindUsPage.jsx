@@ -5,11 +5,13 @@ import Footer from '../../components/Homepage/Footer'
 
 const FindUsPage = () => {
   return (
-    <div><NavBar/>
+    <div>
+      <NavBar/>
       <FindUs/>
       <Footer/>
-      </div>
+     </div>
   )
 };
 
 export default FindUsPage;
+

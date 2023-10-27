@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+
+//import { FcMenu } from "react-icons/fc";
 import TouchstackLogo from "../../assets/images/logo-black.png";
 import Vector from "../../assets/images/Vector.png";
 
 const NavBar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="bg-[#0D0D0D]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -13,7 +17,31 @@ const NavBar = () => {
             alt="logo-black.png"
             style={{ height: "50px", width: "100px" }}
           />
+          <button
+            className="text-3xl md:hidden"
+            // onClick={() => setOpen(!open)}
+            onClick={() => {}}
+          >
+            <span className="sr-only">Open main menu</span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionico"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="32"
+                d="M80 160h352M80 256h352M80 352h352"
+              />
+            </svg>
+            {/* // {`${open ? "close" : "menu"}`} */}
+          </button>
         </a>
+
         <button
           data-collapse-toggle="navbar-dropdown"
           type="button"
@@ -37,7 +65,7 @@ const NavBar = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul className="flex flex-col justify-end font-EncodeLight text-md p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#0D0D0D] md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700">
+          <ul className="md:flex hidden flex-col justify-end font-EncodeLight text-md p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#0D0D0D] md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700">
             <li>
               <button
                 id="dropdownNavbar"
@@ -81,7 +109,7 @@ const NavBar = () => {
                       className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
                     >
                       <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
-                        {/* <img src="images/VectorBlogVec.svg" alt="" /> */}
+                        <img src="images/VectorBlogVec.svg" alt="" />
                       </div>
                       Human Resource Mgt System
                     </a>
@@ -182,6 +210,156 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
+        {/* Mobile NavBar */}
+        <ul
+          className={`md:hidden w-full h-full bottom-0 py-16 pl-4 font-EncodeLight text-md bg-[#0D0D0D]
+            duration-500 ${open ? "left-0" : "left-[-100%]"}`}
+        >
+          <li>
+            <button
+              id="dropdownNavbar"
+              data-dropdown-toggle="dropdownNavbarProducts"
+              className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            >
+              Products
+              <img
+                src={Vector}
+                alt="Vector.png"
+                style={{ height: "auto" }}
+                className="m-1"
+              />
+            </button>
+            {/* Dropdown menu */}
+            <div
+              id="dropdownNavbarProducts"
+              className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-[20px] shadow dark:bg-gray-700 dark:divide-gray-600"
+            >
+              <ul
+                className="p-8 text-lg font-EncodeLight tracking-wider text-gray-900 dark:text-gray-400"
+                aria-labelledby="dropdownLargeButton"
+              >
+                <p className="py-3 text-gray-400 font-appLight">PRODUCTS</p>
+                <li>
+                  <a
+                    href="https://sims.touchstacktechnologiesgh.com"
+                    target="_blank"
+                    className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
+                  >
+                    <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
+                      {/* <img src="images/VectorCareerVec.svg" alt="" /> */}
+                    </div>
+                    Sales & Inventory System
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://touchhrm.touchstacktechnologiesgh.com"
+                    target="_blank"
+                    className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
+                  >
+                    <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
+                      {/* <img src="images/VectorBlogVec.svg" alt="" /> */}
+                    </div>
+                    Human Resource Mgt System
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a
+              href="/solutions"
+              className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            >
+              Solutions
+            </a>
+          </li>
+
+          <li>
+            <button
+              id="dropdownNavbar"
+              data-dropdown-toggle="dropdownNavbarCompany"
+              className="flex items-center justify-between w-full py-2 pl-3 pr-4 lg:mb-0 md:mb-0 sm:mb-2 mb-2 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            >
+              Company
+              <img
+                src={Vector}
+                alt="Vector.png"
+                style={{ height: "auto" }}
+                className="m-1"
+              />
+            </button>
+            {/* Dropdown menu */}
+            <div
+              id="dropdownNavbarCompany"
+              className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-[20px] w-80 shadow dark:bg-gray-700 dark:divide-gray-600"
+            >
+              <ul
+                className="p-8 font-EncodeLight text-lg tracking-wider text-gray-900 dark:text-gray-400"
+                aria-labelledby="dropdownLargeButton"
+              >
+                <p className="py-3 text-gray-400 font-EncodeLight">COMPANY</p>
+                <li>
+                  <a
+                    href="/aboutus"
+                    className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
+                  >
+                    <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
+                      {/* <img src="images/VectorAbtUs.svg" alt="" /> */}
+                    </div>
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/careers"
+                    className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
+                  >
+                    <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
+                      {/* <img src="images/VectorCareerVec.svg" alt="" /> */}
+
+                      {/* <img
+                          src={CareerVec.svg}
+                          alt="VectorCareerVec.svg"
+                          style={{ height: "auto" }}
+                          className=""
+                        /> */}
+                    </div>
+                    Careers
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/findus"
+                    className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
+                  >
+                    <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
+                      {/* <img src="images/VectorFindUsVec.svg" alt="" /> */}
+                      {/* <img
+                          src={BlogVec}
+                          alt="VectorBlogVec.svg"
+                          style={{ height: "auto" }}
+                          className=""
+                        /> */}
+                    </div>
+                    Find Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <div className="py-5">
+            <li>
+              <a
+                href="/findus"
+                className="text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-medium rounded-lg text-sm px-2 py-2 text-center mr-2 mb-2"
+              >
+                Contact
+              </a>
+            </li>
+          </div>
+        </ul>
       </div>
     </nav>
   );
