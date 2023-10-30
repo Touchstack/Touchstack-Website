@@ -1,5 +1,6 @@
 import React from "react";
-import RightImage from "../../assets/images/image.svg"
+import RightImage from "../../assets/images/IMAGE.svg";
+
 
 const GreenBoxComponent = () => {
   return (
