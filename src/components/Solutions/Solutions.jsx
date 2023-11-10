@@ -375,7 +375,7 @@ const Solutions = () => {
   const [status, setStatus] = React.useState("earlyState");
 
   return (
-    <section className="bg-cover bg-no-repeat bg-[url('images/bg-solutions.png')] rounded-none lg:h-[25rem] md:h-[20rem] sm:h-[20rem] h-[20rem]">
+    <section className="bg-cover bg-no-repeat bg-[url('../assets/images/bg-solutions.png')] rounded-none lg:h-[25rem] md:h-[20rem] sm:h-[20rem] h-[20rem]">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <p className="text-center font-EncodeLight text-lg text-[#2EFFE1] p-5">
           Our solutions
