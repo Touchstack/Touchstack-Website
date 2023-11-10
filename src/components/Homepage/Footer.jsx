@@ -25,7 +25,7 @@ export default function Footer() {
                 <h2 className="mb-6 text-[14px] font-appLight text-[#898585]">
                   Company
                 </h2>
-                <ul className="text-white text-[18px]">
+                <ul className="text-white font-EncodeLight font-normal text-lg">
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
@@ -37,7 +37,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/"
+                      href="/careers"
                     >
                       Careers
                     </a>
@@ -45,7 +45,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/"
+                      href="/blog"
                     >
                       Blog
                     </a>
@@ -64,7 +64,7 @@ export default function Footer() {
                 <h2 className="mb-6 text-[14px] font-appLight text-[#898585]">
                   Solution
                 </h2>
-                <ul className="text-white text-[18px]">
+                <ul className="text-white font-EncodeLight font-normal text-lg">
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
@@ -87,7 +87,7 @@ export default function Footer() {
                 <h2 className="mb-6 text-[14px] font-appLight text-[#898585]">
                   More
                 </h2>
-                <ul className="text-white text-[18px]">
+                <ul className="text-white font-EncodeLight font-normal text-lg">
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
