@@ -1,6 +1,5 @@
 import React from "react";
-import RightImage from "../../assets/images/image.svg"
-
+import RightImage from "../../assets/images/image.svg";
 
 const GreenBoxComponent = () => {
   return (
@@ -54,7 +53,7 @@ const GreenBoxComponent = () => {
           </button>
         </div>
         <img
-          src={RightImage} 
+          src={RightImage}
           alt="Right-Aligned Image"
           className="py-8 md:py-16 lg:py-16 rounded-lg"
         />

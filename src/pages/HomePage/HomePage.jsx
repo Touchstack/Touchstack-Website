@@ -1,8 +1,7 @@
-import React, {useEffect } from "react";
+import React, { useEffect } from "react";
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
 import ProjectIdea from "../../components/Homepage/ProjectIdea";
-import BackGround from "../../assets/images/hero_bg.jpg";
 import CodeImage from "../../assets/images/code_hero_image_AdobeExpress .gif";
 import GreenCafe from "../../assets/images/GreenCafe logo  1.svg";
 import BargainMoto from "../../assets/images/BARGAIN MOTO 1.svg";
@@ -29,8 +28,6 @@ import BargainCeo from "../../assets/images/bargain-ceo.svg";
 import HealthBkCeo from "../../assets/images/healthbuk-ceo.png";
 import GreenCafeCeo from "../../assets/images/greencafe-ceo.png";
 
-
-
 const HomePage = () => {
   const [testimonial, setTestimonial] = React.useState();
   const [number, setNumber] = React.useState(0);
@@ -55,13 +52,12 @@ const HomePage = () => {
     },
   ];
 
-   useEffect(() => {
-     setTestimonial(testimonials[number + 1]);
-   }, [number]);
+  useEffect(() => {
+    setTestimonial(testimonials[number + 1]);
+  }, [number]);
 
-   setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 3000);
-  
-  
+  setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 3000);
+
   return (
     <div>
       <NavBar />
