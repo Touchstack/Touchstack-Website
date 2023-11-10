@@ -64,7 +64,7 @@ const HomePage = () => {
       {/* Home page content */}
 
       <div className="">
-        <section className="lg:h-[800px] md:h-[700px] h-[600px] bg-[url('./images/hero_bg.jpg')] bg-auto">
+        <section className="lg:h-[800px] md:h-[700px] h-[600px] bg-[url('../assets/images/hero_bg.jpg')] bg-auto">
           <div className="py-10 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <h1 className="mb-4 pt-10 text-4xl font-EncodeSemiBold font-normal leading-none text-white md:text-4xl lg:text-5xl">
               Building scalable softwares <br /> for industry leading brands
