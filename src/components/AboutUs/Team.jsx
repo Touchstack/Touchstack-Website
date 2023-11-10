@@ -53,7 +53,7 @@ const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
 );
 
 const Team = () => (
-  <div className="grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-3 lg:gap-0 md:gap-24 gap-24 lg:p-0 md:p-12 p-8">
+  <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 lg:gap-0 md:gap-24 gap-24 lg:p-0 md:p-12 p-8">
     <TeamMember
       name="Brian Adjei-Otchwemah"
       role="Founder"

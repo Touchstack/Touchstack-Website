@@ -1,7 +1,7 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Award from "../../images/award.jpg";
-import Articles from "../../images/Article pic.svg";
+import Award from "../../assets/images/award.jpg";
+import Articles from "../../assets/images/Article pic.svg";
 
 const BlogPage = () => {
   return (

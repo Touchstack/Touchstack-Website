@@ -1,8 +1,7 @@
-import React, {useEffect } from "react";
+import React, { useEffect } from "react";
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
 import ProjectIdea from "../../components/Homepage/ProjectIdea";
-import BackGround from "../../assets/images/hero_bg.jpg";
 import CodeImage from "../../assets/images/code_hero_image_AdobeExpress .gif";
 import GreenCafe from "../../assets/images/GreenCafe logo  1.svg";
 import BargainMoto from "../../assets/images/BARGAIN MOTO 1.svg";
@@ -29,8 +28,6 @@ import BargainCeo from "../../assets/images/bargain-ceo.svg";
 import HealthBkCeo from "../../assets/images/healthbuk-ceo.png";
 import GreenCafeCeo from "../../assets/images/greencafe-ceo.png";
 
-
-
 const HomePage = () => {
   const [testimonial, setTestimonial] = React.useState();
   const [number, setNumber] = React.useState(0);
@@ -55,13 +52,12 @@ const HomePage = () => {
     },
   ];
 
-   useEffect(() => {
-     setTestimonial(testimonials[number + 1]);
-   }, [number]);
+  useEffect(() => {
+    setTestimonial(testimonials[number + 1]);
+  }, [number]);
 
-   setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 3000);
-  
-  
+  setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 3000);
+
   return (
     <div>
       <NavBar />
@@ -69,19 +65,19 @@ const HomePage = () => {
 
       <div className="">
         <section className="lg:h-[800px] md:h-[700px] h-[600px] bg-[url('./images/hero_bg.jpg')] bg-auto">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-            <h1 className="mb-8 text-4xl font-ExtraBold leading-none text-white md:text-5xl lg:text-6xl">
-              Building scalable software for industry leading brands
+          <div className="py-10 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+            <h1 className="mb-4 pt-10 text-4xl font-EncodeSemiBold font-normal leading-none text-white md:text-4xl lg:text-5xl">
+              Building scalable softwares <br /> for industry leading brands
             </h1>
-            <p className="mb-8 text-lg font-EncodeRegular text-[#8A8A8A] lg:text-xl sm:px-16 xl:px-48">
+            <p className="mb-8 text-sm font-EncodeRegular text-[#8A8A8A] lg:text-lg sm:px-16 xl:px-48">
               We build quality software and architecture solutions for
               businesses that care about quality, good user experience,
               scalability and profitability.
             </p>
-            <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <div className="flex flex-col mb-4 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
                 href="/"
-                className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
+                className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-12 md:px-10 sm:px-8 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
               >
                 Start a project
                 <svg
@@ -115,7 +111,7 @@ const HomePage = () => {
         <section className="bg-[#1A1919]">
           <div className="mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg">
             <div className="flex flex-col justify-center items-center text-center mt-8 text-gray-500 sm:justify-between">
-              <div className="text-center lg:-mt-64 md:-mt-56 sm:-mt-24 -mt-24 lg:px-0 md:px-6 sm:px-8 px-8">
+              <div className="text-center lg:-mt-72 md:-mt-56 sm:-mt-24 -mt-24 lg:px-0 md:px-6 sm:px-8 px-8">
                 <img src={CodeImage} alt="" />
               </div>
               <div className="mx-auto my-16">
