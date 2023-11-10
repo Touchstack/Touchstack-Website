@@ -1,21 +1,22 @@
 import React from "react";
-import Brian from "../../assets/images/brian.jpg"
+import Brian from "../../assets/images/brian.jpg";
 import Ben from "../../assets/images/ben.jpg";
-import Eugene from "../../assets/images/Eugene.jpg"
-import Abdul from "../../assets/images/abdul.jpg"
-import Susanna from "../../assets/images/susan.jpg"
-import Derrick from "../../assets/images/derrick.jpeg"
-import Jemima from "../../assets/images/dede.jpeg"
-
-
-
+import Eugene from "../../assets/images/eugene.jpg";
+import Abdul from "../../assets/images/abdul.jpg";
+import Susanna from "../../assets/images/susan.jpg";
+import Derrick from "../../assets/images/derrick.jpeg";
+import Jemima from "../../assets/images/dede.jpeg";
 
 const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
   <div className="flex flex-col justify-center items-start text-white py-3 px-5 card">
     <img src={imageSrc} alt={`${name}'s photo`} className="sm:h-object-cover" />
     <p className="text-left text-xl font-EncodeMedium pt-4">{name}</p>
     <p className="text-[#8A8A8A] font-EncodeRegular text-left py-3">{role}</p>
-    <a href={linkedInLink} target="_blank" className="text-[#2EFFE1] bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] rounded-lg">
+    <a
+      href={linkedInLink}
+      target="_blank"
+      className="text-[#2EFFE1] bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] rounded-lg"
+    >
       {
         <svg
           width="32"
