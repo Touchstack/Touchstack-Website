@@ -1,8 +1,4 @@
 import AppLogo from "../../assets/images/touchstack logo 1.svg";
-import LinkedInIcon from "../../assets/images/linkedin.svg";
-import GitHubIcon from "../../assets/images/github.svg";
-import TwitterIcon from "../../assets/images/twitter.svg";
-import InstaIcon from "../../assets/images/insta.svg";
 
 export default function Footer() {
   return (
@@ -40,14 +36,6 @@ export default function Footer() {
                       href="/careers"
                     >
                       Careers
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="hover:underline hover:text-[#2EFFE1]"
-                      href="/blog"
-                    >
-                      Blog
                     </a>
                   </li>
                   <li className="mb-4">
@@ -119,7 +107,8 @@ export default function Footer() {
             </span>
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a
-                href="https://www.linkedin.com/company/touch-stack-technologies/"
+                href="https://www.linkedin.com/company/touch-stack-technologies"
+                rel="noreferrer"
                 target="_blank"
                 className="text-white"
               >
@@ -156,6 +145,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://github.com/Touchstack"
+                rel="noreferrer"
                 target="_blank"
                 className="text-white"
               >
@@ -190,6 +180,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://twitter.com/touch_stack"
+                rel="noreferrer"
                 target="_blank"
                 className="text-white"
               >
@@ -212,6 +203,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://www.instagram.com/touchstack.tech/?hl=en"
+                rel="noreferrer"
                 target="_blank"
                 className="text-white"
               >

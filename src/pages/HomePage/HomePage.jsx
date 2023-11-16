@@ -64,9 +64,9 @@ const HomePage = () => {
       {/* Home page content */}
 
       <div className="">
-        <section className="lg:h-[800px] md:h-[700px] h-[600px] bg-[url('../assets/images/hero_bg.jpg')] bg-auto">
+        <section className="lg:h-[800px] md:h-[700px] h-[600px] bg-[url('/src/assets/images/hero_bg.jpg')]">
           <div className="py-10 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-            <h1 className="mb-4 pt-10 text-4xl font-EncodeSemiBold font-normal leading-none text-white md:text-4xl lg:text-5xl">
+            <h1 className="mb-4 pt-10 text-4xl font-EncodeBold font-normal leading-none text-white md:text-4xl lg:text-6xl">
               Building scalable softwares <br /> for industry leading brands
             </h1>
             <p className="mb-8 text-sm font-EncodeRegular text-[#8A8A8A] lg:text-lg sm:px-16 xl:px-48">
@@ -76,7 +76,7 @@ const HomePage = () => {
             </p>
             <div className="flex flex-col mb-4 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="/"
+                href="/contact"
                 className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-12 md:px-10 sm:px-8 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
               >
                 Start a project
@@ -90,16 +90,16 @@ const HomePage = () => {
                   <path
                     d="M7.5 17.5L17.5 7.5"
                     stroke="#1A1818"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M7.5 7.5H17.5V17.5"
                     stroke="#1A1818"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </a>
