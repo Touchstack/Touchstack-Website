@@ -1,29 +1,33 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavBarDropdown } from "./NavBarDropdown";
 import { CompanyDropdown } from "./CompanyDropdown";
 import TouchstackLogo from "../../assets/images/logo-black.png";
+import { Dropdown } from "flowbite-react";
 
 const NavBar = () => {
-  const [open, setOpen] = useState(false);
+  const [hidden, setHiddenState] = useState("hidden"); //show or hide navbar
+  const [ariaExpanded, setAriaExpanded] = useState("false"); //expanded or collapsed state
   const [showMenu, setShowMenu] = useState(true);
   const [showDropdown, setShowDropdown] = useState(false);
   const [Dropdown, setDropdown] = useState(false);
   const navBarToggler = () => {
     if (hidden && ariaExpanded === "false") {
-      cycleOpen();
       setAriaExpanded("true");
+      setHiddenState();
       return setShowMenu(true);
     } else {
       setAriaExpanded("false");
-      cycleOpen();
+      setHiddenState("hidden");
       return setShowMenu(false);
     }
   };
 
   const handleShowDropdown = () => {
+    Dropdown && setDropdown(false);
     setShowDropdown(!showDropdown);
   };
   const handleDropdown = () => {
+    showDropdown && setShowDropdown(false);
     setDropdown(!Dropdown);
   };
 
@@ -43,7 +47,7 @@ const NavBar = () => {
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:border"
             aria-controls="navbar-cta"
             onTouchStartCapture={() => showMenu && setShowMenu(false)}
-            onClick={() => navBarToggler("/submit")}
+            onClick={() => navBarToggler()}
             onMouseEnter={() => hidden && setShowMenu(false)}
             onMouseLeave={() => setShowMenu(true)}
           >
@@ -69,9 +73,13 @@ const NavBar = () => {
         <button
           data-collapse-toggle="navbar-dropdown"
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 ml-3 text-sm text-gray-200 rounded-lg md:hidden bg-gray-600 hover:bg-gray-100 focus:outline-none"
           aria-controls="navbar-dropdown"
-          aria-expanded="false"
+          aria-expanded={ariaExpanded}
+          onTouchStartCapture={() => showMenu && setShowMenu(false)}
+          onClick={() => navBarToggler()}
+          onMouseEnter={() => hidden && setShowMenu(false)}
+          onMouseLeave={() => setShowMenu(true)}
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -88,7 +96,10 @@ const NavBar = () => {
             ></path>
           </svg>
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <div
+          className={`${hidden} lg:flex justify-between w-full md:w-auto`}
+          id="navbar-dropdown"
+        >
           <ul className="md:flex hidden flex-col justify-end font-EncodeLight text-md p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#0D0D0D] md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700">
             <li>
               <button
@@ -114,17 +125,6 @@ const NavBar = () => {
               {showDropdown && <NavBarDropdown />}
 
               {/* Dropdown menu */}
-              <div
-                id="dropdownNavbarProducts"
-                className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-[20px] shadow dark:bg-gray-700 dark:divide-gray-600"
-              >
-                <ul
-                  className="p-8 text-lg font-EncodeLight tracking-wider text-gray-900 dark:text-gray-400"
-                  aria-labelledby="dropdownLargeButton"
-                >
-                  <p className="py-3 text-gray-400 font-appLight">PRODUCTS</p>
-                </ul>
-              </div>
             </li>
             <li>
               <a
@@ -210,8 +210,8 @@ const NavBar = () => {
         </div>
         {/* Mobile NavBar */}
         <ul
-          className={`md:hidden w-full h-full bottom-0 py-16 pl-4 font-EncodeLight text-md bg-[#0D0D0D]
-            duration-500 ${open ? "left-0" : "left-[-100%]"}`}
+          className={`${hidden} w-full h-full bottom-0 py-16 pl-4 font-EncodeLight text-md bg-[#0D0D0D]
+            duration-500`}
         >
           <li>
             <button

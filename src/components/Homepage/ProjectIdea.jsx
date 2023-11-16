@@ -4,7 +4,7 @@ import RightImage from "../../assets/images/ctaimage.svg";
 const GreenBoxComponent = () => {
   return (
     //className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
-    <div className="bg-[#383434]">
+    <div className="">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg">
         <div className=" flex-col justify-center py-8 px-8 ">
           <h3 className="lg:text-4xl md:text-3xl text-3xl text-black font-EncodeBold mb-4 tracking-wider items-center ">
@@ -15,18 +15,9 @@ const GreenBoxComponent = () => {
             that care about quality, good user experience, scalability and
             profitability.
           </h4>
-          <button
-            className="bg-white 
-    
-          rounded-md py-2 px-4 hover:bg-gray-300 cursor-pointer 
-          flex flex-col place-self-start mt-8 font-EncodeRegular 
-          lg:mb-16 space-y-4 sm:flex-row sm:justify-center 
-          sm:space-y-0 sm:space-x-4 
-          transition-transform 
-          duration-700 ease-in-out
-           transform hover:scale-110 inline-flex 
-           justify-center items-center py-4 lg:px-16 md:px-14
-            sm:px-10 px-8 text-lg font-EncodeMedium text-black rounded-lg"
+          <a
+            href="/findus"
+            className="bg-white font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 my-8 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-medium text-center text-black rounded-lg"
           >
             Start a project{" "}
             <svg
@@ -50,7 +41,7 @@ const GreenBoxComponent = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </button>
+          </a>
         </div>
         <img
           src={RightImage}
