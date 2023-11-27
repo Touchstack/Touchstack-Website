@@ -29,7 +29,9 @@ const CloudArticle = () => {
             Back to Blogs
           </a>
           <div className="text-white font-EncodeBold py-12 lg:text-6xl md:text-4xl sm:text-2xl text-xl">
-            <p className="">Cloud Computing & Serverless Architecture</p>
+            <p className="">
+              Cloud Computing & Serverless Architecture: An Introduction
+            </p>
           </div>
           <div className="inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
             <p>An Introduction to cloud platforms (AWS, Azure, Google Cloud)</p>
@@ -96,11 +98,12 @@ const CloudArticle = () => {
               networks, storage, operating system software, databases,
               development tools at their data center. Typically, customers can
               pay a fixed fee to provide a specified amount of resources for a
-              specified number of users, or they can choose 'pay-as-you-go'
-              pricing to pay only for the resources they use. Either option
-              enables PaaS customers to build, test, deploy run, update and
-              scale applications more quickly and inexpensively they could if
-              they had to build out and manage their own on-premises platform.
+              specified number of users, or they can choose
+              &quot;pay-as-you-go&quot; pricing to pay only for the resources
+              they use. Either option enables PaaS customers to build, test,
+              deploy run, update and scale applications more quickly and
+              inexpensively they could if they had to build out and manage their
+              own on-premises platform.
             </p>
             <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
               <p>Amazon Web Services (AWS)</p>
@@ -118,12 +121,33 @@ const CloudArticle = () => {
               <p>Microsoft Azure</p>
             </div>
             <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-              Microsoft Azure, Microsoft's cloud platform, is a close competitor
-              to AWS. It provides a broad spectrum of services, including
-              virtual machines, data analytics, and AI tools like Azure Machine
-              Learning. Azure's integration with Microsoft's ecosystem, such as
-              Windows Server and SQL Server, makes it a favored choice for
-              enterprises heavily invested in Microsoft technologies
+              Microsoft Azure, Microsoft&apos;s cloud platform, is a close
+              competitor to AWS. It provides a broad spectrum of services,
+              including virtual machines, data analytics, and AI tools like
+              Azure Machine Learning. Azure&apos;s integration with
+              Microsoft&apos;s ecosystem, such as Windows Server and SQL Server,
+              makes it a favored choice for enterprises heavily invested in
+              Microsoft technologies
+            </p>
+
+            <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
+              <p>Google Cloud Platform (GCP)</p>
+            </div>
+            <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
+              GCP is known for its data analytics and machine learning services,
+              including BigQuery and TensorFlow. Google&apos;s expertise in data
+              management and analytics draws organizations looking to harness
+              the power of data-driven insights. Additionally, GCP offers
+              services like Kubernetes Engine for container orchestration and
+              Firebase for mobile app development Developing Serverless
+              Applications Serverless computing is a paradigm that takes cloud
+              computing to the next level. In a serverless architecture,
+              developers write code to run in response to specific events or
+              triggers without having to manage the underlying infrastructure.
+              This approach allows for automatic scaling, reduced operational
+              overhead, and precise billing based on usage. While it&apos;s
+              called &quot;serverless,&quot; there are still servers running the
+              code, but developers are abstracted from this layer.
             </p>
           </div>
         </div>
