@@ -2,7 +2,6 @@ import { useState } from "react";
 import { NavBarDropdown } from "./NavBarDropdown";
 import { CompanyDropdown } from "./CompanyDropdown";
 import TouchstackLogo from "../../assets/images/logo-black.png";
-import { Dropdown } from "flowbite-react";
 
 const NavBar = () => {
   const [hidden, setHiddenState] = useState("hidden"); //show or hide navbar
