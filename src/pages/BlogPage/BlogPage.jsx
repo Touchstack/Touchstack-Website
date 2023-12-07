@@ -27,7 +27,7 @@ const BlogPage = () => {
                 <div className="place-self-start mt-10 py-10">
                   <a
                     className="inline-flex justify-center items-center font-EncodeRegular text-lg text-center text-green-400 border border-[#2EFFE1] py-4 lg:px-8 md:px-8 sm:px-8 px-8 rounded-lg bg-[#1A1919]"
-                    href="/article/cloud-computing"
+                    href="/article/brian-leadership-award"
                   >
                     Read me
                     <svg
