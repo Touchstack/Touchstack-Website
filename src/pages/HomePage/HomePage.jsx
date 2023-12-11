@@ -76,7 +76,7 @@ const HomePage = () => {
             </p>
             <div className="flex flex-col mb-4 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="/findus"
+                href="/startaproject"
                 className="font-EncodeRegular transition duration-700 ease-in-out hover:scale -110 inline-flex justify-center items-center py-4 lg:px-12 md:px-10 sm:px-8 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
               >
                 Start a project
