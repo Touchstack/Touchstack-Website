@@ -3,7 +3,9 @@ import Footer from "../../components/Homepage/Footer";
 import Award from "../../assets/images/award.jpg";
 import Articles from "../../assets/images/Article pic.svg";
 import CloudImg from "../../assets/images/cloud.jpg";
-import NewBlog from "./NewBlog";
+
+import AiImg from "../../assets/images/ai.png"
+
 
 const BlogPage = () => {
   return (
@@ -128,7 +130,7 @@ const BlogPage = () => {
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 lg:gap-2 md:gap-2 lg: md:px-8 p-8 mb-12">
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
             <a href="/article/brian-leadership-award">
-              <img src={Articles} alt="" />
+              <img src={Articles} alt=""  />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
                 Brian Adjei-Otchwemah Recognized With The &quot;Outstanding
                 Leadership Award&quot;
@@ -151,19 +153,21 @@ const BlogPage = () => {
             </p>
           </div>
 
-          {/*<div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
-            <a href="/">
-              <img src={Articles} alt="" />
+          <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
+            <a href="/article/artificial-intelligence">
+              <img src={AiImg} alt="AiImage" className="lg:h-[260px] rounded-2xl"/>
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
-                Brian Adjei-Otchwemah Recognized With The “Outstanding
-                Leadership Award
+              Unlocking the Power of AI: Transforming Technology and Beyond
               </p>
             </a>
             <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
-              August 2nd, 2023
+              December 11th, 2023
             </p>
+
           </div>*/}
-          <NewBlog />
+        
+
+          </div>
         </div>
       </div>
 
