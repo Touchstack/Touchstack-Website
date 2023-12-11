@@ -13,7 +13,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import ArticlePage from "./pages/BlogPage/ArticlePage.jsx";
 import CloudArticle from "./pages/BlogPage/CloudArticle.jsx";
-import NewBlog from "./pages/BlogPage/NewBlog.jsx";
+import Cybersecurity from "./pages/BlogPage/Cybersecurity.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
@@ -51,7 +51,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/article/cybersecurity-blog",
-    element: <NewBlog />,
+    element: <Cybersecurity />,
     errorElement: <ErrorPage />,
   },
 ]);
