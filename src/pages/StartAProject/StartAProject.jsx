@@ -1,9 +1,8 @@
 import NavBar from "../../components/Homepage/NavBar"
-import Footer from "../../components/Homepage/Footer"
 
  const StartAProject = () => {
   return (
-    <div>
+    <div className="bg-[#1a1919] h-full">
        <NavBar />
 
        <section className="bg-cover bg-no-repeat bg-black bg-[url('/src/assets/images/bg-solutions.png')] rounded-none lg:h-[20rem] md:h-[20rem] sm:h-[20rem] h-[20rem]">
@@ -18,19 +17,17 @@ import Footer from "../../components/Homepage/Footer"
       </section>
 
        {/*Form section*/}
-       <div className="bg-[#1a1919] py-20">
+       <div className=" pt-20">
         <iframe
           title="Google Form"
           src="https://docs.google.com/forms/d/e/1FAIpQLSei-VGP0Sre__tPATxP5sgN_Z7V2rLy91lyn18AZG2Fw6qWRg/viewform?embedded=true"
           width="100%"
-          height="1000"
+          height="2700"
         >
           Loading…
         </iframe>
       </div>
        {/*Form section*/}
-
-       <Footer />
     </div>
   )
 }
