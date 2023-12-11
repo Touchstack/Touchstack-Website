@@ -16,7 +16,7 @@ const GreenBoxComponent = () => {
             profitability.
           </h4>
           <a
-            href="/findus"
+            href="/startaproject"
             className="bg-white font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 my-8 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-medium text-center text-black rounded-lg"
           >
             Start a project{" "}

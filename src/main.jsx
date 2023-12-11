@@ -12,8 +12,10 @@ import BlogPage from "./pages/BlogPage/BlogPage.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import ArticlePage from "./pages/BlogPage/ArticlePage.jsx";
+import AiArticle from "./pages/BlogPage/AiArticle.jsx";
 import CloudArticle from "./pages/BlogPage/CloudArticle.jsx";
 import Cybersecurity from "./pages/BlogPage/Cybersecurity.jsx";
+import StartAProject from "./pages/StartAProject/StartAProject.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
@@ -42,6 +44,16 @@ const router = createBrowserRouter([
   {
     path: "/article/cloud-computing",
     element: <CloudArticle />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/article/artificial-intelligence",
+    element: <AiArticle />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/startaproject",
+    element: <StartAProject />,
     errorElement: <ErrorPage />,
   },
   {
