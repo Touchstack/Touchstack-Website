@@ -3,6 +3,7 @@ import Footer from "../../components/Homepage/Footer";
 import Award from "../../assets/images/award.jpg";
 import Articles from "../../assets/images/Article pic.svg";
 import CloudImg from "../../assets/images/cloud.jpg";
+import NewBlog from "./NewBlog";
 
 const BlogPage = () => {
   return (
@@ -162,6 +163,7 @@ const BlogPage = () => {
               August 2nd, 2023
             </p>
           </div>*/}
+          <NewBlog />
         </div>
       </div>
 
