@@ -2,7 +2,7 @@ import NavBar from "../../components/Homepage/NavBar"
 
  const StartAProject = () => {
   return (
-    <div className="bg-[#1a1919] h-full">
+    <div className="bg-[#1a1919]">
        <NavBar />
 
        <section className="bg-cover bg-no-repeat bg-black bg-[url('/src/assets/images/bg-solutions.png')] rounded-none lg:h-[20rem] md:h-[20rem] sm:h-[20rem] h-[20rem]">
@@ -17,15 +17,10 @@ import NavBar from "../../components/Homepage/NavBar"
       </section>
 
        {/*Form section*/}
-       <div className=" pt-20">
-        <iframe
-          title="Google Form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSei-VGP0Sre__tPATxP5sgN_Z7V2rLy91lyn18AZG2Fw6qWRg/viewform?embedded=true"
-          width="100%"
-          height="2700"
-        >
-          Loading…
-        </iframe>
+       <div className="w-auto pt-20">
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE1YcSCKImruASZ0ynVgwQLUG7oj5XjsH0bASBqdq0oJYiiA/viewform?embedded=true" width="100%" height="2699" style={{maxHeight: "100%", }}>
+        Loading…
+       </iframe>
       </div>
        {/*Form section*/}
     </div>
