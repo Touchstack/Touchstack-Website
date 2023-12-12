@@ -128,7 +128,7 @@ const FindUs = () => {
             href="mailto:bernice@touchstacktechnologies.com"
             className="mb-6 text-lg hover:text-green-400 underline font-EncodeMedium text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            bernice@touchstacktechnologies.com
+            info@touchstacktechnologies.com
           </a>
         </div>
       </div>
