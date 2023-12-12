@@ -101,7 +101,7 @@ export default function Footer() {
                       className="hover:underline hover:text-[#2EFFE1]"
                       href="https://drive.google.com/file/d/1jUDmtQobp8EKPVFsKSqewrMVUKgPIpDQ/view"
                     >
-                      Privacy,Policy & Terms
+                      Privacy Policy & Terms
                     </a>
                   </li>
                 </ul>
@@ -111,9 +111,9 @@ export default function Footer() {
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-white sm:text-center">
-              © Touchstack Technologies,
+              © Touchstack Technologies,{" "}
               <a href="" className="hover:underline">
-                Inside Buro Ghana, Osu Close
+                Inside BURO Ghana, Osu Close
               </a>
               , Plot n.7 Accra.
             </span>
@@ -121,6 +121,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/company/touch-stack-technologies/"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -157,6 +158,7 @@ export default function Footer() {
               <a
                 href="https://github.com/Touchstack"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -191,6 +193,7 @@ export default function Footer() {
               <a
                 href="https://twitter.com/touch_stack"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -213,6 +216,7 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/touchstack.tech/?hl=en"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
