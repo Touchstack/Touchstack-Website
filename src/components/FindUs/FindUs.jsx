@@ -1,5 +1,3 @@
-import React from "react";
-
 const FindUs = () => {
   return (
     <section className="bg-cover bg-gray-900 bg-no-repeat bg-[url('images/bg-contact.png')] rounded-none">
@@ -7,7 +5,7 @@ const FindUs = () => {
         {/* FORM */}
         <div className="flex flex-col lg:pl-32 lg:w-9/12 w-full">
           <div>
-            <h1 className="mb-4 pb-4 lg:px-0 md:px-4 px-8 text-justify justify-center text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-left md:text-center text-center text-6xl font-EncodeLight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 pb-4 lg:px-0 md:px-4 px-8 justify-center text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-left md:text-center text-center text-6xl font-EncodeLight leading-none text-gray-900 md:text-5xl lg:text-6xl">
               We would love to hear from <p>you</p>
             </h1>
             <p className="mb-6 text-xl text-gray-500 lg:text-left md:text-center text-center lg:text-xl xl:px-5 dark:text-gray-400 font-EncodeRegular">
@@ -86,7 +84,7 @@ const FindUs = () => {
               </div>
               <button
                 type="submit"
-                className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-EncodeMedium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
+                className="transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-EncodeMedium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
               >
                 Submit
               </button>
@@ -113,13 +111,13 @@ const FindUs = () => {
         </div>
         <div className="lg:text-left md:text-center text-center">
           <h1 className="mb-4 text-4xl font-EncodeBold md:text-5xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]">
-            Let's talk
+            Let&apos;s talk
           </h1>
           <a
-            href="tel:+233 20 376 7382"
+            href="tel: +233 50 728 3433"
             className="mb-6 text-lg font-EncodeMedium hover:text-green-400 hover:underline text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            +233 20 376 7382
+            +233 50 728 3433
           </a>
         </div>
         <div className="lg:text-left md:text-center text-center">
@@ -127,10 +125,10 @@ const FindUs = () => {
             Say Hi
           </h1>
           <a
-            href="mailto:info@touchstacktecnologies.com"
+            href="mailto:bernice@touchstacktechnologies.com"
             className="mb-6 text-lg hover:text-green-400 underline font-EncodeMedium text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            info@touchstacktecnologies.com
+            bernice@touchstacktechnologies.com
           </a>
         </div>
       </div>

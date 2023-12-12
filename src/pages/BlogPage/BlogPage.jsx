@@ -2,6 +2,8 @@ import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
 import Award from "../../assets/images/award.jpg";
 import Articles from "../../assets/images/Article pic.svg";
+import CloudImg from "../../assets/images/cloud.jpg";
+import AiImg from "../../assets/images/ai.png"
 
 const BlogPage = () => {
   return (
@@ -10,7 +12,7 @@ const BlogPage = () => {
       {/* Blog Content */}
       <div className="bg-[#0D0D0D]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl">
-          <h1 className="mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] text-[45px] mb-8">
+          <h1 className="mx-auto text-transparent font-EncodeSemiBold bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] text-[45px] mb-8">
             Touchstack Blog
           </h1>
           <div className="flex items-center justify-center mb-16">
@@ -20,13 +22,13 @@ const BlogPage = () => {
                   LATEST
                 </h1>
                 <p className="font-EncodeBold text-white text-3xl mt-4">
-                  Brian Adjei-Otchwemah Recognized With The “Outstanding
-                  Leadership Award
+                  Brian Adjei-Otchwemah Recognized With The &quot;Outstanding
+                  Leadership Award&quot;
                 </p>
                 <div className="place-self-start mt-10 py-10">
                   <a
                     className="inline-flex justify-center items-center font-EncodeRegular text-lg text-center text-green-400 border border-[#2EFFE1] py-4 lg:px-8 md:px-8 sm:px-8 px-8 rounded-lg bg-[#1A1919]"
-                    href="/article"
+                    href="/article/brian-leadership-award"
                   >
                     Read me
                     <svg
@@ -39,17 +41,17 @@ const BlogPage = () => {
                       <path
                         d="M7 17.5L17 7.5"
                         stroke="url(#paint0_linear_1074_1237)"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
 
                       <path
                         d="M7 7.5H17V17.5"
                         stroke="url(#paint1_linear_1074_1237)"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
 
                       <defs>
@@ -61,8 +63,8 @@ const BlogPage = () => {
                           y2="15.0043"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#2EFFE1" />
-                          <stop offset="1" stop-color="#7DEE53" />
+                          <stop stopColor="#2EFFE1" />
+                          <stop offset="1" stopColor="#7DEE53" />
                         </linearGradient>
 
                         <linearGradient
@@ -73,8 +75,8 @@ const BlogPage = () => {
                           y2="15.0043"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#2EFFE1" />
-                          <stop offset="1" stop-color="#7DEE53" />
+                          <stop stopColor="#2EFFE1" />
+                          <stop offset="1" stopColor="#7DEE53" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -95,7 +97,7 @@ const BlogPage = () => {
         <h1 className="text-white text-5xl font-EncodeSemiBold lg:text-4xl lg:text-left md:3xl md:px-12">
           All Articles
         </h1>
-        <ul className="lg:flex-row md:flex-row sm:flex-col flex-col justify-start items-start self-start gap-4 md:flex md:px-12 p-8 mt-4 md:items-center  ">
+        {/*<ul className="lg:flex-row md:flex-row sm:flex-col flex-col justify-start items-start self-start gap-4 md:flex md:px-12 p-8 mt-4 md:items-center  ">
           <a href="#">
             <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400 hover:text-black duration-500 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]">
               All
@@ -121,15 +123,15 @@ const BlogPage = () => {
               Media
             </li>
           </a>
-        </ul>
+        </ul>*/}
 
-        <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 lg:gap-2 md:gap-2 lg: md:px-8 p-8 mb-12">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 lg:gap-2 md:gap-2 lg: md:px-8 p-8 mb-12">
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
-            <a href="/">
-              <img src={Articles} alt="" />
+            <a href="/article/brian-leadership-award">
+              <img src={Articles} alt=""  />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
-                Brian Adjei-Otchwemah Recognized With The “Outstanding
-                Leadership Award
+                Brian Adjei-Otchwemah Recognized With The &quot;Outstanding
+                Leadership Award&quot;
               </p>
             </a>
             <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
@@ -138,28 +140,26 @@ const BlogPage = () => {
           </div>
 
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
-            <a href="/">
-              <img src={Articles} alt="" />
+            <a href="/article/cloud-computing">
+              <img src={CloudImg} alt="" className="lg:h-[260px] rounded-2xl" />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
-                Brian Adjei-Otchwemah Recognized With The “Outstanding
-                Leadership Award
+                Cloud Computing & Serverless Architecture: An Introduction
               </p>
             </a>
             <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
-              August 2nd, 2023
+              October 13th, 2023
             </p>
           </div>
 
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
-            <a href="/">
-              <img src={Articles} alt="" />
+            <a href="/article/artificial-intelligence">
+              <img src={AiImg} alt="AiImage" className="lg:h-[260px] rounded-2xl"/>
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
-                Brian Adjei-Otchwemah Recognized With The “Outstanding
-                Leadership Award
+              Unlocking the Power of AI: Transforming Technology and Beyond
               </p>
             </a>
             <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
-              August 2nd, 2023
+              December 11th, 2023
             </p>
           </div>
         </div>
