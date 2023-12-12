@@ -99,7 +99,7 @@ export default function Footer() {
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-white sm:text-center">
-              © Touchstack Technologies,
+              © Touch Stack Technologies,
               <a href="" className="hover:underline">
                 Inside Buro Ghana, Osu Close
               </a>
