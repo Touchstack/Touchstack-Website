@@ -281,7 +281,7 @@ const Solutions = () => {
                   Tap into Industry's Top Talent
                 </p>
                 <p className="text-[#F1F1F1] text-lg font-EncodeLight">
-                  Being a coveted employer in Central Europe, we attract and
+                  Being a coveted employer in West Africa or Ghana, we attract and
                   nurture the best professionals in product design and
                   engineering, relieving you from any managerial stress.
                 </p>
