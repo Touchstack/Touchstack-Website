@@ -22,10 +22,10 @@ const GreenBoxComponent = () => {
             that care about quality, good user experience, scalability and
             profitability.
           </h4>
-          <button
+          <a
             className="bg-white rounded-md px-4 hover:bg-gray-300 cursor-pointer flex-col place-self-start mt-8 font-EncodeRegular lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 
              transition-transform duration-700 ease-in-out transform hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 text-lg text-black"
-            onClick={startProjectHandler}
+            href="/startaproject"
           >
             Start a project
             <svg
@@ -49,7 +49,7 @@ const GreenBoxComponent = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </button>
+          </a>
         </div>
         <img
           src={RightImage}
