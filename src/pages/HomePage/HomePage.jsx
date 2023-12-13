@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
 import ProjectIdea from "../../components/Homepage/ProjectIdea";
@@ -30,6 +31,7 @@ import GreenCafeCeo from "../../assets/images/greencafe-ceo.png";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const HomePage = () => {
+  const navigate = useNavigate();
   const [testimonial, setTestimonial] = React.useState();
   const [number, setNumber] = React.useState(0);
   const testimonials = [
@@ -59,6 +61,11 @@ const HomePage = () => {
 
   setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 15000);
 
+  const startProjectHandler = () => {
+    const email = "mailto:brian@touchstacktechnologies.com";
+    window.location.href = email;
+  };
+
   return (
     <div>
       <NavBar />
@@ -76,10 +83,10 @@ const HomePage = () => {
               scalability and profitability.
             </p>
             <div className="flex flex-col mb-4 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-              <a
-                href="/startaproject"
-                className="font-EncodeRegular transition duration-700 ease-in-out hover:scale -110 inline-flex justify-center items-center py-4 lg:px-12 md:px-10 sm:px-8 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
-              >
+              <button
+                className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-12 md:px-10 sm:px-8 px-8 text-lg font-medium text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
+                onClick={startProjectHandler}
+               >
                 Start a project
                 <svg
                   width="25"
@@ -103,7 +110,7 @@ const HomePage = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
         </section>
