@@ -89,7 +89,7 @@ export default function Footer() {
                       className="hover:underline hover:text-[#2EFFE1]"
                       href="https://drive.google.com/file/d/1jUDmtQobp8EKPVFsKSqewrMVUKgPIpDQ/view"
                     >
-                      Privacy,Policy & Terms
+                      Privacy Policy & Terms
                     </a>
                   </li>
                 </ul>
@@ -101,7 +101,7 @@ export default function Footer() {
             <span className="text-sm text-white sm:text-center">
               © Touch Stack Technologies,
               <a href="" className="hover:underline">
-                Inside Buro Ghana, Osu Close
+                Inside BURO Ghana, Osu Close
               </a>
               , Plot n.7 Accra.
             </span>
@@ -110,6 +110,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/touch-stack-technologies"
                 rel="noreferrer"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -147,6 +148,7 @@ export default function Footer() {
                 href="https://github.com/Touchstack"
                 rel="noreferrer"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -182,6 +184,7 @@ export default function Footer() {
                 href="https://twitter.com/touch_stack"
                 rel="noreferrer"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -205,6 +208,7 @@ export default function Footer() {
                 href="https://www.instagram.com/touchstack.tech/?hl=en"
                 rel="noreferrer"
                 target="_blank"
+                rel="noreferrer"
                 className="text-white"
               >
                 <svg
