@@ -1,7 +1,14 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import RightImage from "../../assets/images/ctaimage.svg";
 
 const GreenBoxComponent = () => {
+  const navigate = useNavigate();
+
+  const startProjectHandler = () => {
+    const email = "mailto:brian@touchstacktechnologies.com";
+    window.location.href = email;
+  };
+
   return (
     //className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
     <div className="">
@@ -15,11 +22,12 @@ const GreenBoxComponent = () => {
             that care about quality, good user experience, scalability and
             profitability.
           </h4>
-          <a
-            href="/startaproject"
-            className="bg-white font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 my-8 lg:px-16 md:px-14 sm:px-10 px-8 text-lg font-medium text-center text-black rounded-lg"
+          <button
+            className="bg-white rounded-md px-4 hover:bg-gray-300 cursor-pointer flex-col place-self-start mt-8 font-EncodeRegular lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 
+             transition-transform duration-700 ease-in-out transform hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 text-lg text-black"
+            onClick={startProjectHandler}
           >
-            Start a project{" "}
+            Start a project
             <svg
               className="w-5 h-5"
               fill="none"
@@ -41,7 +49,7 @@ const GreenBoxComponent = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </button>
         </div>
         <img
           src={RightImage}
