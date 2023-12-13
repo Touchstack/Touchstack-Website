@@ -16,6 +16,7 @@ import AiArticle from "./pages/BlogPage/AiArticle.jsx";
 import CloudArticle from "./pages/BlogPage/CloudArticle.jsx";
 import Cybersecurity from "./pages/BlogPage/Cybersecurity.jsx";
 import StartAProject from "./pages/StartAProject/StartAProject.jsx";
+import VrArticle from "./pages/BlogPage/VrArticle.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
@@ -64,6 +65,11 @@ const router = createBrowserRouter([
   {
     path: "/article/cybersecurity-blog",
     element: <Cybersecurity />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/article/virtual-reality",
+    element: <VrArticle />,
     errorElement: <ErrorPage />,
   },
 ]);

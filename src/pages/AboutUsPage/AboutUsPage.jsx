@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../../components/Homepage/NavBar";
 import FoundersStory from "../../components/AboutUs/FoundersStory";
 import Footer from "../../components/Homepage/Footer";
