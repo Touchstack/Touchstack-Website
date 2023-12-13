@@ -28,6 +28,7 @@ import BargainM from "../../assets/images/bargain.svg";
 import BargainCeo from "../../assets/images/bargain-ceo.svg";
 import HealthBkCeo from "../../assets/images/healthbuk-ceo.png";
 import GreenCafeCeo from "../../assets/images/greencafe-ceo.png";
+import { AnimatePresence, motion } from 'framer-motion';
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -58,7 +59,7 @@ const HomePage = () => {
     setTestimonial(testimonials[number + 1]);
   }, [number]);
 
-  setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 3000);
+  setTimeout(() => (number === 0 ? setNumber(1) : setNumber(0)), 15000);
 
   const startProjectHandler = () => {
     const email = "mailto:brian@touchstacktechnologies.com";
@@ -303,12 +304,19 @@ const HomePage = () => {
         </div>
 
         {/*Testimonials*/}
-
-        <div
-          className="flex justify-center items-center py-32"
-          id="testimonials"
-        >
-          <div className="border border-[#706868] rounded-[15px] self-center lg:w-7/12 md:w-9/12 w-10/12 font-EncodeSemiBold">
+       <AnimatePresence>
+        <div  className="flex justify-center items-center py-32" id="testimonials">
+          <motion.div 
+          className="border border-[#706868] 
+          rounded-[15px] self-center 
+          lg:w-7/12 md:w-9/12 w-10/12 f
+          ont-EncodeSemiBold"
+          key={number}
+          animate={{ opacity: 10 }}
+          initial={{ opacity: 0 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 5.0 }}
+          >
             <p className="lg:text-4xl md:text-4xl text-2xl font-appSemiBold text-center lg:px-24 md:px-18 px-16 mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] mt-10 mb-10">
               {testimonial?.text}
             </p>
@@ -316,14 +324,15 @@ const HomePage = () => {
               <img src={testimonial?.image} alt="" />
 
               <div className="ml-4 pt-8">
-                <h4 className="text-white lg:text-2xl text-xl font-bold">
-                  {testimonial?.name}
-                </h4>
+                <h4 className="text-white lg:text-2xl text-xl font-bold">{testimonial?.name}</h4>
                 <p className="text-[#8A8A8A] mb-10">{testimonial?.portfolio}</p>
               </div>
             </div>
-          </div>
-        </div>
+         </motion.div>
+       </div>
+      </AnimatePresence>
+      {/*Testimonials*/}
+
         <ProjectIdea />
       </section>
 
