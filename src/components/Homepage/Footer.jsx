@@ -1,4 +1,4 @@
-import AppLogo from "../../assets/images/touchstack logo 1.svg";
+import AppLogo from "../../assets/images/logo.png";
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="md:flex md:justify-around">
             <div className="mb-6 md:mb-0">
               <a href="/">
-                <img className="" src={AppLogo} alt="Touchstack logo" />
+                <img className="h-[80px]" src={AppLogo} alt="Touchstack logo" />
               </a>
               <div className="">
                 <p className="text-white">
