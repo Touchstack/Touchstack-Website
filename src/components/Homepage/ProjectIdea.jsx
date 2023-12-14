@@ -1,13 +1,12 @@
-import { useNavigate } from "react-router-dom";
 import RightImage from "../../assets/images/ctaimage.svg";
 
 const GreenBoxComponent = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const startProjectHandler = () => {
-    const email = "mailto:brian@touchstacktechnologies.com";
-    window.location.href = email;
-  };
+  // const startProjectHandler = () => {
+  //   const email = "mailto:brian@touchstacktechnologies.com";
+  //   window.location.href = email;
+  // };
 
   return (
     //className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg"
