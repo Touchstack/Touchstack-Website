@@ -101,7 +101,7 @@ export default function Footer() {
             <span className="text-sm text-white sm:text-center">
               © Touch Stack Technologies,
               <a href="" className="hover:underline">
-                Inside BURO Ghana, Osu Close
+                Inside Buro Ghana, Osu Close
               </a>
               , Plot n.7 Accra.
             </span>
