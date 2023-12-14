@@ -1,7 +1,5 @@
-import React from "react";
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-
 
 const Careers = () => {
   return (
@@ -14,9 +12,11 @@ const Careers = () => {
         <section className="bg-[#0D0D0D] pt-16 pb-16">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:px-24">
             <div>
-              <h1 className="py-5 px-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-6xl md:text-5xl text-5xl">
-                Join Us
-              </h1>
+              <a href="">
+                <h1 className="py-5 px-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-6xl md:text-5xl text-5xl">
+                  Join Us
+                </h1>
+              </a>
 
               <p className="text-[#8A8A8A] text-[18px] py-5 px-10 text-justify">
                 We are searching for an outstanding group of engineers and tech

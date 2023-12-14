@@ -1,4 +1,4 @@
-import AppLogo from "../../assets/images/touchstack logo 1.svg";
+import AppLogo from "../../assets/images/logo.png";
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="md:flex md:justify-around">
             <div className="mb-6 md:mb-0">
               <a href="/">
-                <img className="" src={AppLogo} alt="Touchstack logo" />
+                <img className="h-[80px]" src={AppLogo} alt="Touchstack logo" />
               </a>
               <div className="">
                 <p className="text-white">
@@ -84,14 +84,16 @@ export default function Footer() {
                       Blog
                     </a>
                   </li>
-                  <li className="mb-4">
+                  {/*-- DO NOT UNCOMMENT THIS (BY EUGENE) --*/}
+                  {/*<li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
                       href="https://drive.google.com/file/d/1jUDmtQobp8EKPVFsKSqewrMVUKgPIpDQ/view"
                     >
                       Privacy Policy & Terms
                     </a>
-                  </li>
+  </li>*/}
+                  {/*-- DO NOT UNCOMMENT THIS (BY EUGENE) --*/}
                 </ul>
               </div>
             </div>
@@ -110,7 +112,6 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/touch-stack-technologies"
                 rel="noreferrer"
                 target="_blank"
-                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -148,7 +149,6 @@ export default function Footer() {
                 href="https://github.com/Touchstack"
                 rel="noreferrer"
                 target="_blank"
-                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -184,7 +184,6 @@ export default function Footer() {
                 href="https://twitter.com/touch_stack"
                 rel="noreferrer"
                 target="_blank"
-                rel="noreferrer"
                 className="text-white"
               >
                 <svg
@@ -208,7 +207,6 @@ export default function Footer() {
                 href="https://www.instagram.com/touchstack.tech/?hl=en"
                 rel="noreferrer"
                 target="_blank"
-                rel="noreferrer"
                 className="text-white"
               >
                 <svg

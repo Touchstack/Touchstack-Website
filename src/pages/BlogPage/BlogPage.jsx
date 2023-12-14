@@ -165,7 +165,7 @@ const BlogPage = () => {
               </p>
             </a>
             <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
-              October 13th, 2023
+              August 2nd, 2023
             </p>
           </div>
 
