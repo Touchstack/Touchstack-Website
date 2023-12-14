@@ -8,16 +8,16 @@ import mobile from '../../assets/images/mobile.svg';
 const HRMFeature = () => {
     return (
       <div>
-        <section className='w-full h-[50%] bg-[#0D0D0D] p-6 md:p-12 lg:p-20'>
+        <section className='w-full h-[50%] bg-[#0D0D0D] md:pl-[250px] p-10'>
           <div className='mx-auto flex flex-col md:flex-row gap-6'>
             {/* Left */}
             <div className='mb-6 md:mb-0'>
-              <img src={mobile} alt="" className='w-full' />
+              <img src={mobile} alt="" className='w-[1000px] h-full' />
             </div>
             {/* Left */}
   
             {/* Right */}
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col gap-6 ml-10'>
               {/* DashBoard */}
               <FeatureItem 
                 image={DashBoard} 
@@ -70,7 +70,7 @@ const HRMFeature = () => {
       <div className='flex flex-col items-start'>
         <div className='flex flex-row items-center gap-5 mb-2'>
           <img src={image} alt="" />
-          <p className='text-[#fff] text-[36px] font-[700]'>{title}</p>
+          <p className='text-[#fff] md:text-[36px] text-[20px] font-[700]'>{title}</p>
         </div>
         <p className='text-[#fff] md:w-3/4 lg:w-2/3 xl:w-1/2'>{description}</p>
       </div>
