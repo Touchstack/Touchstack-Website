@@ -13,7 +13,7 @@ const SalesFeatures = () => {
         <div className='mx-auto max-w-screen-xl flex flex-col md:flex-row gap-6'>
           {/* Left */}
           <div className='mb-6 md:mb-0'>
-            <img src={mobile} alt="" className='w-[1000px] h-full' />
+            <img src={mobile} alt="" className='w-[2000px] h-full' />
           </div>
           {/* Left */}
 
@@ -81,7 +81,7 @@ const FeatureItem = ({ image, title, description }) => {
         <img src={image} alt="" />
         <p className='text-[#fff] md:text-[36px] text-[26px] font-[700]'>{title}</p>
       </div>
-      <p className='text-[#fff] md:w-3/4 lg:w-2/3 xl:w-1/2'>{description}</p>
+      <p className='text-[#fff] md:w-3/4'>{description}</p>
     </div>
   );
 }
