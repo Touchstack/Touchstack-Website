@@ -84,14 +84,16 @@ export default function Footer() {
                       Blog
                     </a>
                   </li>
-                  <li className="mb-4">
+                  {/*-- DO NOT UNCOMMENT THIS (BY EUGENE) --*/}
+                  {/*<li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
                       href="https://drive.google.com/file/d/1jUDmtQobp8EKPVFsKSqewrMVUKgPIpDQ/view"
                     >
                       Privacy Policy & Terms
                     </a>
-                  </li>
+  </li>*/}
+                  {/*-- DO NOT UNCOMMENT THIS (BY EUGENE) --*/}
                 </ul>
               </div>
             </div>
