@@ -2,6 +2,7 @@ import NavBar from '../../components/Homepage/NavBar';
 import Footer from '../../components/Homepage/Footer';
 import BookADemo from '../../components/SalesInventoryPage/BookADemo';
 import SalesFeatures from '../../components/SalesInventoryPage/SalesFeatures';
+import SalesHero from '../../assets/images/SalesHero.svg';
 
 const SalesInventoryPage = () => {
   return( 
@@ -59,7 +60,7 @@ const SalesInventoryPage = () => {
 
           {/*HRM Laptop and phone display section*/}
           <section className="w-full md:h-[450px] h-[170px] bg-[#1A1919] flex items-center justify-center relative">
-           {/*<img src={} alt="" className="w-8/12 mb-[150px] absolute" /> */}
+           <img src={SalesHero} alt="" className="w-8/12 mb-[150px] absolute" />
          </section>
          {/*HRM Laptop display section Ends*/}
 
