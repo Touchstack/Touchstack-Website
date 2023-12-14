@@ -34,9 +34,9 @@ const AiArticle = () => {
             </p>
           </div>
           <div className="inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
-            <p>Impact of Artificial intelligence in today's world</p>
+            <p>Impact of Artificial intelligence in today’s world</p>
           </div>
-
+          {/* AI image */}
           <div className="flex justify-center items-center">
             <img src={Ai} alt="/" className="lg:h-[600px] rounded-3xl" />
           </div>
@@ -45,7 +45,7 @@ const AiArticle = () => {
             <p className="text-[#898585] font-EncodeRegular text- mb-8 lg:px-12 sm:px-2 px-0">
             In the fast-paced realm of technology, Artificial Intelligence (AI) 
             stands as a transformative force, reshaping industries and propelling 
-            innovation to unprecedented heights. In today's world, AI has transcended the realm of 
+            innovation to unprecedented heights. In today’s world, AI has transcended the realm of 
             science fiction and become an integral part of our daily lives. From 
             voice-activated virtual assistants to recommendation algorithms, AI 
             is seamlessly woven into the fabric of modern technology. In the 
@@ -105,8 +105,8 @@ const AiArticle = () => {
               <p>Impact on other industries</p>
             </div>
             <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-            AI's influence extends far beyond the tech sector, permeating various industries.
-             Let's explore its profound impact on healthcare, finance, and education.
+            AI’s influence extends far beyond the tech sector, permeating various industries.
+             Let’s explore its profound impact on healthcare, finance, and education.
             </p>
             <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
               <p>Healthcare Revolution</p>
@@ -140,7 +140,7 @@ const AiArticle = () => {
             </p>
            
             <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-            In conclusion, AI's current applications and impact are reshaping the technology industry and 
+            In conclusion, AI’s current applications and impact are reshaping the technology industry and 
             creating a ripple effect across diverse sectors. As we stand on the cusp of a new era, 
             the fusion of AI and technology promises to redefine the way we live, work, and interact.
 
