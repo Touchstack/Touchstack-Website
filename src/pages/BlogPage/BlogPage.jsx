@@ -6,7 +6,7 @@ import CybersecurityImage from "../../assets/images/cybersecurity.jpg";
 import AiImg from "../../assets/images/ai.png";
 import GreenTechnology from "../../assets/images/GreenTechnology.jpg";
 import VrImg from "../../assets/images/vr1.png"
-
+ 
 const BlogPage = () => {
   return (
     <div>
@@ -45,17 +45,15 @@ const BlogPage = () => {
                         stroke="url(#paint0_linear_1074_1237)"
                         strokeWidth="2"
                         strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-
+                        strokeLinejoin="round" />
+ 
                       <path
                         d="M7 7.5H17V17.5"
                         stroke="url(#paint1_linear_1074_1237)"
                         strokeWidth="2"
                         strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-
+                        strokeLinejoin="round" />
+ 
                       <defs>
                         <linearGradient
                           id="paint0_linear_1074_1237"
@@ -68,7 +66,7 @@ const BlogPage = () => {
                           <stop stopColor="#2EFFE1" />
                           <stop offset="1" stopColor="#7DEE53" />
                         </linearGradient>
-
+ 
                         <linearGradient
                           id="paint1_linear_1074_1237"
                           x1="11.3081"
@@ -92,45 +90,45 @@ const BlogPage = () => {
           </div>
         </div>
       </div>
-
+ 
       {/* Article Content */}
-
+ 
       <div className="bg-[#1A1919] self-center mx-auto p-12">
         <h1 className="text-white text-5xl font-EncodeSemiBold lg:text-4xl lg:text-left md:3xl md:px-12">
           All Articles
         </h1>
         {/*<ul className="lg:flex-row md:flex-row sm:flex-col flex-col justify-start items-start self-start gap-4 md:flex md:px-12 p-8 mt-4 md:items-center  ">
-          <a href="#">
-            <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400 hover:text-black duration-500 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]">
-              All
-            </li>
-          </a>
-          <a href="">
-            <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
-              Events
-            </li>
-          </a>
-          <a href="">
-            <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
-              Announcements
-            </li>
-          </a>
-          <a href="">
-            <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
-              Learning Resources
-            </li>
-          </a>
-          <a href="">
-            <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
-              Media
-            </li>
-          </a>
-        </ul>*/}
-
+      <a href="#">
+        <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400 hover:text-black duration-500 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]">
+          All
+        </li>
+      </a>
+      <a href="">
+        <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
+          Events
+        </li>
+      </a>
+      <a href="">
+        <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
+          Announcements
+        </li>
+      </a>
+      <a href="">
+        <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
+          Learning Resources
+        </li>
+      </a>
+      <a href="">
+        <li className="p-2 border border-[#D9D9D9] rounded-full text-gray-400">
+          Media
+        </li>
+      </a>
+    </ul>*/}
+ 
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 lg:gap-2 md:gap-2 lg: md:px-8 p-8 mb-12">
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
             <a href="/article/brian-leadership-award">
-              <img src={Award} alt="" className="lg:h-[260px] rounded-2xl"/>
+              <img src={Award} alt="" className="lg:h-[260px] rounded-2xl" />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
                 Brian Adjei-Otchwemah recognized with the &quot;Outstanding
                 Leadership Award&quot;
@@ -140,7 +138,7 @@ const BlogPage = () => {
               August 2nd, 2023
             </p>
           </div>
-
+ 
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
             <a href="/article/cloud-computing">
               <img src={CloudImg} alt="" className="lg:h-[260px] rounded-2xl" />
@@ -158,8 +156,7 @@ const BlogPage = () => {
               <img
                 src={CybersecurityImage}
                 alt=""
-                className="lg:h-[260px] rounded-2xl"
-              />
+                className="lg:h-[260px] rounded-2xl" />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
                 SEC Charges SolarWinds, CISO with Fraud over Security Risk
                 Disclosures
@@ -169,7 +166,7 @@ const BlogPage = () => {
               August 2nd, 2023
             </p>
           </div>
-
+ 
           {/* Cybersecurity end  */}
           {/* AI starts  */}
           <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
@@ -177,8 +174,7 @@ const BlogPage = () => {
               <img
                 src={AiImg}
                 alt="AiImage"
-                className="lg:h-[260px] rounded-2xl"
-              />
+                className="lg:h-[260px] rounded-2xl" />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
                 Unlocking the Power of AI: Transforming Technology and Beyond
               </p>
@@ -193,8 +189,7 @@ const BlogPage = () => {
               <img
                 src={GreenTechnology}
                 alt=""
-                className="lg:h-[260px] rounded-2xl"
-              />
+                className="lg:h-[260px] rounded-2xl" />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
                 Everything You Need to Know About Green Technology in 2024
               </p>
@@ -203,32 +198,32 @@ const BlogPage = () => {
               December 15th, 2023
             </p>
           </div>
-
+ 
           {/* Green Technology end  */}
-            </div>
-            {/* AI ends */}
-            {/* VR starts  */}
-          <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
-            <a href="/article/virtual-reality">
-              <img
-                src={VrImg}
-                alt="VrImage"
-                className="lg:h-[260px] rounded-2xl"
-              />
-              <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
-              Virtual and Augmented Reality: Redefining Realities
-              </p>
-            </a>
-            <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
-              December 13th, 2023
-            </p>
-            {/* VR ends */}
-            </div>
-        </div>
-      </div>
 
+             {/* VR starts  */}
+        <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
+          <a href="/article/virtual-reality">
+            <img
+              src={VrImg}
+              alt="VrImage"
+              className="lg:h-[260px] rounded-2xl" />
+            <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
+              Virtual and Augmented Reality: Redefining Realities
+            </p>
+          </a>
+          <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
+            December 13th, 2023
+          </p>
+          {/* VR ends */}
+        </div>
+        </div>
+        {/* AI ends */}
+      </div>
       <Footer />
     </div>
+    
+  
   );
 };
 export default BlogPage;
