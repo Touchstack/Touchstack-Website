@@ -14,6 +14,7 @@ import "./index.css";
 import ArticlePage from "./pages/BlogPage/ArticlePage.jsx";
 import AiArticle from "./pages/BlogPage/AiArticle.jsx";
 import CloudArticle from "./pages/BlogPage/CloudArticle.jsx";
+import Cybersecurity from "./pages/BlogPage/Cybersecurity.jsx";
 import StartAProject from "./pages/StartAProject/StartAProject.jsx";
 
 const router = createBrowserRouter([
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/article/cloud-computing",
-    element: < CloudArticle />,
+    element: <CloudArticle />,
     errorElement: <ErrorPage />,
   },
   {
@@ -53,6 +54,16 @@ const router = createBrowserRouter([
   {
     path: "/startaproject",
     element: <StartAProject />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/article/Artificial-intelligence",
+    element: <CloudArticle />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/article/cybersecurity-blog",
+    element: <Cybersecurity />,
     errorElement: <ErrorPage />,
   },
 ]);

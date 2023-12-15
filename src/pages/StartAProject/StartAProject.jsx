@@ -10,7 +10,7 @@ import NavBar from "../../components/Homepage/NavBar"
          <p className="text-center font-EncodeLight text-2xl text-[#2EFFE1] p-5">
            Get Started
          </p>
-         <p className="leading-5 text-white tracking-wider font-EncodeBold text-center lg:text-5xl md:text-4xl sm:text-3xl text-3xl lg:px-32 md:px-32 sm:px-24 px-4">
+         <p className="leading-10 text-white tracking-wider font-EncodeBold text-center lg:text-5xl md:text-4xl sm:text-3xl text-3xl lg:px-32 md:px-32 sm:px-24 px-4">
             Start A Project With Us
           </p>
         </div>    
