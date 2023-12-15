@@ -49,7 +49,7 @@ const GreenBoxComponent = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </button>
         </div>
         <img
           src={RightImage}
