@@ -88,7 +88,7 @@ const Careers = () => {
               href="mailto:brian@touchstacktechnologies.com"
               className="text-green-400 hover:underline cursor-pointer"
             >
-              brian@touchstacktechnologies.com
+              info@touchstacktechnologies.com
             </a>
           </p>
         </div>

@@ -20,8 +20,8 @@ import GreenTech from "./pages/BlogPage/GreenTech.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
-  { path: "/", element: <SalesInventoryPage />, errorElement: <ErrorPage /> },
-  { path: "/", element: <HumanResourcePage />, errorElement: <ErrorPage /> },
+  { path: "/projects/sales", element: <SalesInventoryPage />, errorElement: <ErrorPage /> },
+  { path: "/projects/hrm", element: <HumanResourcePage />, errorElement: <ErrorPage /> },
 
   { path: "/aboutus", element: <AboutUsPage />, errorElement: <ErrorPage /> },
   { path: "/careers", element: <Careers />, errorElement: <ErrorPage /> },

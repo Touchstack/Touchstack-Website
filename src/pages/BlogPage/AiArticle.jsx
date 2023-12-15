@@ -36,7 +36,7 @@ const AiArticle = () => {
           <div className="inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
             <p>Impact of Artificial intelligence in today’s world</p>
           </div>
-
+          {/* AI image */}
           <div className="flex justify-center items-center">
             <img src={Ai} alt="/" className="lg:h-[600px] rounded-3xl" />
           </div>
@@ -146,7 +146,6 @@ const AiArticle = () => {
               Virtual tutors and chatbots offer additional support, making
               education more accessible and tailored to diverse learning styles.
             </p>
-
             <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
               In conclusion, AI’s current applications and impact are reshaping
               the technology industry and creating a ripple effect across
