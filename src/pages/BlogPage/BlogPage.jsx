@@ -14,7 +14,7 @@ const BlogPage = () => {
       <div className="bg-[#0D0D0D]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl">
           <h1 className="mx-auto text-transparent font-EncodeSemiBold bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] text-[45px] mb-8">
-            Touchstack Blog
+            Touch Stack Blog
           </h1>
           <div className="flex items-center justify-center mb-16">
             <div className="container bg-[#1A1919] grid lg:grid-cols-2 gap-2 rounded-xl px-8 p-4 ">
