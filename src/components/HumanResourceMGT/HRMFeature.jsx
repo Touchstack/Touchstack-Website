@@ -17,7 +17,7 @@ const HRMFeature = () => {
             {/* Left */}
   
             {/* Right */}
-            <div className='flex flex-col gap-6 ml-10'>
+            <div className='flex flex-col gap-6 md:ml-10'>
               {/* DashBoard */}
               <FeatureItem 
                 image={DashBoard} 
