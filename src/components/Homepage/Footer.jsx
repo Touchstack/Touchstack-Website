@@ -1,6 +1,20 @@
 import AppLogo from "../../assets/images/logo.png";
+import { useNavigate } from 'react-router-dom';
 
-export default function Footer() {
+export default function Footer({ onLinkClick }) {
+
+  const navigate = useNavigate();
+  
+  const handleGrowthClick = () => {
+    navigate("/solutions")
+    onLinkClick(true)
+  }
+
+  const handleEarlyClick = () => {
+    navigate("/solutions")
+    onLinkClick(false)
+  }
+
   return (
     <div className="bg-black font-EncodeRegular">
       <footer className="">
@@ -53,21 +67,11 @@ export default function Footer() {
                   Solution
                 </h2>
                 <ul className="text-white font-EncodeLight font-normal text-lg">
-                  <li className="mb-4">
-                    <a
-                      className="hover:underline hover:text-[#2EFFE1]"
-                      href="/solutions"
-                    >
+                  <li className="mb-4 hover:underline hover:text-[#2EFFE1] hover:cursor-pointer" onClick={handleEarlyClick}>
                       Early stage
-                    </a>
                   </li>
-                  <li className="mb-4">
-                    <a
-                      className="hover:underline hover:text-[#2EFFE1]"
-                      href="/solutions"
-                    >
+                  <li className="mb-4 hover:underline hover:text-[#2EFFE1] hover:cursor-pointer" onClick={handleGrowthClick} >
                       Scale or growth
-                    </a>
                   </li>
                 </ul>
               </div>
