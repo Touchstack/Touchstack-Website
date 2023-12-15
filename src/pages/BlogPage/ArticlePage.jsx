@@ -1,6 +1,6 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Bee from "../../assets/images/Bee.svg";
+import Bee from "../../assets/images/BrianBlog.png";
 import Clock from "../../assets/images/clock.svg";
 import Internet from "../../assets/images/Internet.svg";
 
@@ -66,9 +66,9 @@ const ArticlePage = () => {
                   href="https://touchstacktechnologies.com/"
                   className="hover:underline"
                 >
-                 Touch StackTechnologies. 
+                 Touch StackTechnologies  
                  </a> 
-                With a background in software development, he is passionate
+                  . With a background in software development, he is passionate
                 about user-centric design and business-driven growth. Brian has
                 strong leadership skills and is known for creating alignment
                 among teams with diverse interests. He excels in managing
