@@ -4,6 +4,7 @@ import Award from "../../assets/images/award.jpg";
 import CloudImg from "../../assets/images/cloud.jpg";
 import CybersecurityImage from "../../assets/images/cybersecurity.jpg";
 import AiImg from "../../assets/images/ai.png";
+import GreenTechnology from "../../assets/images/GreenTechnology.jpg";
 import VrImg from "../../assets/images/vr1.png"
 
 const BlogPage = () => {
@@ -185,6 +186,25 @@ const BlogPage = () => {
             <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
               December 11th, 2023
             </p>
+          </div>
+          {/* Green Technology start  */}
+          <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
+            <a href="/article/everything-you-need-to-know-about-green-technology-in-2023">
+              <img
+                src={GreenTechnology}
+                alt=""
+                className="lg:h-[260px] rounded-2xl"
+              />
+              <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
+                Everything You Need to Know About Green Technology in 2024
+              </p>
+            </a>
+            <p className="font-EncodeRegular text-[#898585] text-xs text-left mb-8">
+              December 15th, 2023
+            </p>
+          </div>
+
+          {/* Green Technology end  */}
             </div>
             {/* AI ends */}
             {/* VR starts  */}
