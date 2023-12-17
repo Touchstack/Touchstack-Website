@@ -1,7 +1,7 @@
 import Footer from "../../components/Homepage/Footer";
 import NavBar from "../../components/Homepage/NavBar";
 import GreenTechnology from "../../assets/images/GreenTechnology.jpg";
-import GreenTechnologynew from "../../assets/images/GreenTechnologynew.jpg";
+import GreenTechnologynew from "../../assets/images/GreenTechnologynew.png";
 
 function GreenTech() {
   return (
@@ -76,7 +76,7 @@ function GreenTech() {
             <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
               <p>Green technology: a few examples</p>
             </div>
-            <div className="">
+            <div className="lg:flex inlin-block">
               <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
                 Beyond the familiar landscape of solar panels and wind turbines,
                 a realm of lesser-known but impactful green technologies is
@@ -84,70 +84,49 @@ function GreenTech() {
                 compilation of some noteworthy eco-friendly innovations that
                 might not be on your radar:
               </p>
-              <img src={GreenTechnologynew} alt="" />
-            </div>
 
-            <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
-              <p>Platform as a Service (PaaS)</p>
+              <img
+                src={GreenTechnologynew}
+                alt=""
+                className="lg:h-[360px] h-[260px]  "
+              />
             </div>
-            <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-              PaaS is a cloud-based computing model that allows development
-              teams to build, test, deploy, and scale applications faster and
-              more cost-effectively. The PaaS provider hosts everything servers,
-              networks, storage, operating system software, databases,
-              development tools at their data center. Typically, customers can
-              pay a fixed fee to provide a specified amount of resources for a
-              specified number of users, or they can choose
-              &quot;pay-as-you-go&quot; pricing to pay only for the resources
-              they use. Either option enables PaaS customers to build, test,
-              deploy run, update and scale applications more quickly and
-              inexpensively they could if they had to build out and manage their
-              own on-premises platform.
-            </p>
             <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
-              <p>Amazon Web Services (AWS)</p>
+              <ul className="list-disc">
+                <li className="mt-3">
+                  <span className="font-EncodeBold">
+                    Wastewater treatment and water purification:
+                  </span>
+                  Transforming wastewater into drinkable or sufficiently clean
+                  water for various purposes.
+                </li>
+                <li className="mt-3">
+                  <span className="font-EncodeBold">
+                    Waste management and recycling:
+                  </span>
+                  Minimizing the impact of landfills through effective waste
+                  management and recycling initiatives.
+                </li>
+                <li className="mt-3">
+                  <span className="font-EncodeBold">Batteries:</span>
+                  Serving as crucial components for storing energy, playing a
+                  pivotal role in the transition to renewable sources.
+                </li>
+                <li className="mt-3">
+                  <span className="font-EncodeBold">Green materials:</span>
+                  Incorporating local, renewable materials like bamboo, hemp,
+                  and straw in construction and manufacturing.
+                </li>
+                <li className="mt-3">
+                  <span className="font-EncodeBold">
+                    Carbon tracking software:
+                  </span>
+                  Software solutions, such as carbon tracking tools, calculating
+                  and monitoring a company’s carbon emissions to promote
+                  sustainable practices.
+                </li>
+              </ul>
             </div>
-            <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-              AWS is a leader in the cloud services market, offering a vast
-              array of services and products. These include virtual servers
-              (EC2), managed databases (RDS), storage solutions (S3), and
-              artificial intelligence (AI) capabilities through Amazon
-              SageMaker. AWS is known for its global data center presence and an
-              extensive customer base, making it a popular choice for many
-              businesses.
-            </p>
-            <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
-              <p>Microsoft Azure</p>
-            </div>
-            <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-              Microsoft Azure, Microsoft&apos;s cloud platform, is a close
-              competitor to AWS. It provides a broad spectrum of services,
-              including virtual machines, data analytics, and AI tools like
-              Azure Machine Learning. Azure&apos;s integration with
-              Microsoft&apos;s ecosystem, such as Windows Server and SQL Server,
-              makes it a favored choice for enterprises heavily invested in
-              Microsoft technologies
-            </p>
-
-            <div className="lg:px-12 sm:px-2 px-0 inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm">
-              <p>Google Cloud Platform (GCP)</p>
-            </div>
-            <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
-              GCP is known for its data analytics and machine learning services,
-              including BigQuery and TensorFlow. Google&apos;s expertise in data
-              management and analytics draws organizations looking to harness
-              the power of data-driven insights. Additionally, GCP offers
-              services like Kubernetes Engine for container orchestration and
-              Firebase for mobile app development Developing Serverless
-              Applications Serverless computing is a paradigm that takes cloud
-              computing to the next level. In a serverless architecture,
-              developers write code to run in response to specific events or
-              triggers without having to manage the underlying infrastructure.
-              This approach allows for automatic scaling, reduced operational
-              overhead, and precise billing based on usage. While it&apos;s
-              called &quot;serverless,&quot; there are still servers running the
-              code, but developers are abstracted from this layer.
-            </p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Bee from "../../assets/images/cloud.jpg";
+import Bee from "../../assets/images/cloud2.jpg";
 
 const CloudArticle = () => {
   return (
