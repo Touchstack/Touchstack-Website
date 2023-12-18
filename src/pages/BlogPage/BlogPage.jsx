@@ -128,7 +128,7 @@ const BlogPage = () => {
     </ul>*/}
 
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 lg:gap-2 md:gap-2 lg: md:px-8 p-8 mb-12">
-          <div className="flex flex-col justify-center items-start text-white py-2 px-2 card">
+          <div className="flex mt-5 flex-col justify-center items-start text-white py-2 px-2 card">
             <a href="/article/brian-leadership-award">
               <img src={Award} alt="" className="lg:h-[260px] rounded-2xl" />
               <p className="text-white font-EncodeBold text-left text-xl py-2 hover:underline">
