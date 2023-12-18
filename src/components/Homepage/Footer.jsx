@@ -55,7 +55,7 @@ export default function Footer({ onLinkClick }) {
                   <li className="mb-4">
                     <a
                       className="hover:underline hover:text-[#2EFFE1]"
-                      href="/findus"
+                      href="/contactus"
                     >
                       Contact Us
                     </a>
