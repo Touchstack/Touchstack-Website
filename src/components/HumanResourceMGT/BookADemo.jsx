@@ -2,7 +2,7 @@ import Laptop from '../../assets/images/Laptop.svg';
 
 const BookADemo = () => {
   return (
-    <div className="flex items-end h-screen">
+    <div className="flex items-end ">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:mx-24 md:mx-16 mx-12 py-8 px-8 rounded-lg">
         <div className="flex flex-col justify-center">
           <h3 className="lg:text-2xl md:text-1xl text-xl text-black font-EncodeBold mb-4 tracking-wider items-center">
