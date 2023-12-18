@@ -1,4 +1,3 @@
-
 import Brian from "../../assets/images/brian.jpg";
 import Ben from "../../assets/images/ben.jpg";
 import Eugene from "../../assets/images/eugene.jpg";
@@ -6,6 +5,9 @@ import Abdul from "../../assets/images/abdul.jpg";
 import Susanna from "../../assets/images/susan.jpg";
 import Bernice from "../../assets/images/bernice.jpeg";
 import Jemima from "../../assets/images/dede.jpeg";
+import Haminda from "../../assets/images/Haminda.jpg";
+import Quist from "../../assets/images/Elinam2.jpg";
+import Buerkie from "../../assets/images/Winnifred.jpg";
 
 const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
   <div className="flex flex-col justify-center items-start text-white py-3 px-5 card">
@@ -15,7 +17,8 @@ const TeamMember = ({ name, role, imageSrc, linkedInLink }) => (
     <a
       href={linkedInLink}
       target="_blank"
-      className="text-[#2EFFE1] bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] rounded-lg" rel="noreferrer"
+      className="text-[#2EFFE1] bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] rounded-lg"
+      rel="noreferrer"
     >
       {
         <svg
@@ -93,9 +96,27 @@ const Team = () => (
     />
     <TeamMember
       name="Jemima Cole"
-      role="Web Designer & Content Developer"
+      role="Product Associate"
       imageSrc={Jemima}
       linkedInLink="https://www.linkedin.com/in/jemimacole/"
+    />
+    <TeamMember
+      name="Haminda Mahama"
+      role="Associate Product Designer"
+      imageSrc={Haminda}
+      linkedInLink="https://www.linkedin.com/in/hamidamahama?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    />
+    <TeamMember
+      name="Elinam Quist"
+      role="Lead Product Designer"
+      imageSrc={Quist}
+      linkedInLink="https://www.linkedin.com/in/elinam-quist-a0b960158/"
+    />
+    <TeamMember
+      name=" Sepenu Winnifred Buerkie"
+      role="Executive Assistant"
+      imageSrc={Buerkie}
+      linkedInLink="https://www.linkedin.com/in/winnifred-sepenu-647405169/"
     />
   </div>
 );

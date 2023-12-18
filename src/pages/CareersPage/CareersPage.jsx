@@ -5,7 +5,6 @@ const Careers = () => {
   return (
     <div>
       <NavBar />
-
       {/* Page Content */}
 
       <div>
@@ -48,16 +47,16 @@ const Careers = () => {
                   <path
                     d="M7.5 17.5L17.5 7.5"
                     stroke="#1A1818"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M7.5 7.5H17.5V17.5"
                     stroke="#1A1818"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </a>
@@ -83,17 +82,19 @@ const Careers = () => {
             id="open-roles"
           >
             There are currently no open roles at Touch Stack but we accept
-            applications anytime. Send your CV to :
+            applications anytime.
+            <br />
+            Send your CV to:
+            <br />
             <a
               href="mailto:brian@touchstacktechnologies.com"
               className="text-green-400 hover:underline cursor-pointer"
             >
-              brian@touchstacktechnologies.com
+              info@touchstacktechnologies.com
             </a>
           </p>
         </div>
       </div>
-
       <Footer />
     </div>
   );
