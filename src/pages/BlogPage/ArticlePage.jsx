@@ -79,7 +79,7 @@ const ArticlePage = () => {
                 up-to-date with industry trends and constantly seeks out
                 opportunities to learn and grow. Brian’s natural problem-solving
                 skills, commitment to excellence, and ability to lead diverse
-                teams make him an invaluable asset to any organization.
+                teams make him an invaluable asset to any organization..
               </p>
             </div>
           </div>
