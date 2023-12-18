@@ -90,7 +90,7 @@ const FoundersStory = () => {
         </div>
         <div className="flex justify-center items-center">
           <button className=" mt-8 items-center text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-EncodeMedium rounded-lg text-lg px-8 py-2 text-center mr-2 mb-20">
-            Join Us
+            <a href="/careers">Join Us</a>
           </button>
         </div>
         <GreenBoxComponent className="" />
