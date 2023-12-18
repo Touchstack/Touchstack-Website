@@ -34,6 +34,7 @@ const router = createBrowserRouter([
   { path: "/aboutus", element: <AboutUsPage />, errorElement: <ErrorPage /> },
   { path: "/careers", element: <Careers />, errorElement: <ErrorPage /> },
   { path: "/contactus", element: <FindUsPage />, errorElement: <ErrorPage /> },
+  // { path: "/teampage", element: <TeamPage  />, errorElement: <ErrorPage /> },
 
   {
     path: "/solutions",
