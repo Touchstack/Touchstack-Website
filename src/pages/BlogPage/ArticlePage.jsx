@@ -48,9 +48,12 @@ const ArticlePage = () => {
               <img src={Bee} alt="/" />
             </div>
 
-            <div className="py-8">
+            <div className="py-4">
+                <div className="text-[#898585] font-appRegular mb-8 lg:px-12 sm:px-2 px-0 flex justify-between">
+                  <p>Las Vegas, USA</p>
+                  <p>July 22, 2023{" "}</p>
+                </div>
               <p className="text-[#898585] font-appRegular text- mb-8 lg:px-12 sm:px-2 px-0">
-                Las Vegas, USA — July 22, 2023 —{" "}
                 <a
                   href="https://www.linkedin.com/in/brian-adjei-otchwemah-ba213a9a/"
                   className="hover:underline"
