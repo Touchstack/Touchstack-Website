@@ -1,4 +1,3 @@
-import React from "react";
 import Team from "./Team";
 import GreenBoxComponent from "../../components/Homepage/ProjectIdea";
 
@@ -36,11 +35,12 @@ const FoundersStory = () => {
           <img
             src="https://d33wubrfki0l68.cloudfront.net/21f17c9729118dcd28d79acd5952a141284ed2ad/41bfc/images/founder.jpg"
             alt="Founders' Pic"
+            className="max-h-[800px]"
           />
         </div>
         <div className="font-EncodeRegular" /*founders' section*/>
           <h1 className="mt-6 py-5 px-10 font-ExtraLight justify-center text-transparent bg-clip-text bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53] lg:text-6xl md:text-5xl text-5xl">
-            Founders' story
+            Founders’ story
           </h1>
           <p className="text-[#8A8A8A] text-[18px] py-5 px-10 text-justify">
             Throughout his career, he has demonstrated strong leadership skills,
@@ -52,7 +52,7 @@ const FoundersStory = () => {
           <p className="text-[#8A8A8A] text-[18px] py-5 px-10 text-justify">
             His expertise lies in managing multiple projects from initiation to
             completion using agile adoptions and tailored processes to fit the
-            team's operating model. He is known for his ability to deliver
+            team’s operating model. He is known for his ability to deliver
             high-quality results on time and within budget while keeping a focus
             on meeting business goals.
           </p>
@@ -86,12 +86,12 @@ const FoundersStory = () => {
 
         <div className="pt-10">
           <h1 className="text-center text-white text-3xl font-EncodeBold mt-10 justify-center">
-            Want to join Touchstack?
+            Want to join Touch Stack?
           </h1>
         </div>
         <div className="flex justify-center items-center">
           <button className=" mt-8 items-center text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-EncodeMedium rounded-lg text-lg px-8 py-2 text-center mr-2 mb-20">
-            Join Us
+            <a href="/careers">Join Us</a>
           </button>
         </div>
         <GreenBoxComponent className="" />
