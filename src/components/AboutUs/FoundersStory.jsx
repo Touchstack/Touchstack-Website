@@ -35,6 +35,7 @@ const FoundersStory = () => {
           <img
             src="https://d33wubrfki0l68.cloudfront.net/21f17c9729118dcd28d79acd5952a141284ed2ad/41bfc/images/founder.jpg"
             alt="Founders' Pic"
+            className="max-h-[800px]"
           />
         </div>
         <div className="font-EncodeRegular" /*founders' section*/>
