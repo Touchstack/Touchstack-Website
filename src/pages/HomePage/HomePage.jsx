@@ -129,7 +129,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-5 grid-cols-5 gap-5 mt-10">
+            <div className="grid items-center justify-center lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-5 grid-cols-5 gap-5 mt-10">
               <div className="cursor-pointer transition duration-700 ease-in-out hover:scale-110">
                 <img src={GreenCafe} alt="" />
               </div>
