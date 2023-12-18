@@ -85,7 +85,7 @@ const FoundersStory = () => {
 
         <div className="pt-10">
           <h1 className="text-center text-white text-3xl font-EncodeBold mt-10 justify-center">
-            Want to join Touchstack?
+            Want to join Touch Stack?
           </h1>
         </div>
         <div className="flex justify-center items-center">
