@@ -1,8 +1,7 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Award from "../../assets/images/BrainAward.jpg";
-import Articles from "../../assets/images/Article pic.svg";
-import CloudImg from "../../assets/images/cloud.jpg";
+import Award from "../../assets/images/award.jpg";
+import CloudImg from "../../assets/images/cloud2.jpg";
 import CybersecurityImage from "../../assets/images/cybersecurity.jpg";
 import AiImg from "../../assets/images/ai.png";
 import GreenTechnology from "../../assets/images/GreenTechnology.jpg";
