@@ -41,7 +41,7 @@ const Cybersecurity = () => {
           </div>
 
           <div className="flex justify-center items-center">
-            <img src={CybersecurityImage} alt="/" className="lg:h-[600px]" />
+            <img src={CybersecurityImage} alt="/" className="min-h-[400px]" />
           </div>
 
           <div className="py-8">
