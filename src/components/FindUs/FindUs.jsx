@@ -255,7 +255,7 @@ const FindUs = () => {
             Location
           </h1>
           <p className="mb-6 text-lg font-EncodeMedium text-gray-500 lg:text-xl dark:text-gray-400">
-            Inside Buro Ghana, Osu Close, Plot n.7Accra
+            Inside buro. Ghana, Osu Close, Plot n.7Accra
           </p>
         </div>
         <div className="lg:text-left md:text-center text-center">
@@ -277,7 +277,7 @@ const FindUs = () => {
             href="mailto:info@touchstacktecnologies.com"
             className="mb-6 text-lg hover:text-green-400 underline font-EncodeMedium text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            info@touchstacktecnologies.com
+            brian@touchstacktechnologies.com
           </a>
         </div>
       </div>
