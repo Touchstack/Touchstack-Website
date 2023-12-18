@@ -187,7 +187,7 @@ const NavBar = () => {
 
                   <li>
                     <a
-                      href="/findus"
+                      href="/contactus"
                       className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
                     >
                       <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md"></div>
@@ -199,7 +199,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="/findus"
+                href="/contactus"
                 className="text-[#2EFFE1] hover:text-green-500 border border-[#2EFFE1] hover:border hover:border-green-500 font-medium rounded-lg text-sm px-2 py-2 text-center mr-2 mb-2"
               >
                 Contact

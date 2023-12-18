@@ -75,8 +75,12 @@ const Cybersecurity = () => {
                 Occurred?
               </p>
             </div>
-            <div className="flex items-center">
-              <img src={CybersecurityBg} alt="" className="lg:h-[260px]" />
+            <div className="lg:flex inline-block items-center">
+              <img
+                src={CybersecurityBg}
+                alt=""
+                className="lg:h-[260px] lg:mb-0 mb-5"
+              />
               <p className="text-[#898585] font-EncodeRegular mb-8 lg:px-12 sm:px-2 px-0">
                 The Russian APT29 threat group effectively penetrated
                 SolarWinds’ internal systems and compromised the SolarWinds

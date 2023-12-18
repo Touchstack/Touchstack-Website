@@ -1,6 +1,6 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Bee from "../../assets/images/Bee.svg";
+import Bee from "../../assets/images/BrianBlog.png";
 import Clock from "../../assets/images/clock.svg";
 import Internet from "../../assets/images/Internet.svg";
 
@@ -48,9 +48,12 @@ const ArticlePage = () => {
               <img src={Bee} alt="/" />
             </div>
 
-            <div className="py-8">
+            <div className="py-4">
+                <div className="text-[#898585] font-appRegular mb-8 lg:px-12 sm:px-2 px-0 flex justify-between">
+                  <p>Las Vegas, USA</p>
+                  <p>July 22, 2023{" "}</p>
+                </div>
               <p className="text-[#898585] font-appRegular text- mb-8 lg:px-12 sm:px-2 px-0">
-                Las Vegas, USA — July 22, 2023 —{" "}
                 <a
                   href="https://www.linkedin.com/in/brian-adjei-otchwemah-ba213a9a/"
                   className="hover:underline"
@@ -66,9 +69,9 @@ const ArticlePage = () => {
                   href="https://touchstacktechnologies.com/"
                   className="hover:underline"
                 >
-                 Touch StackTechnologies. 
+                 Touch StackTechnologies  
                  </a> 
-                With a background in software development, he is passionate
+                  . With a background in software development, he is passionate
                 about user-centric design and business-driven growth. Brian has
                 strong leadership skills and is known for creating alignment
                 among teams with diverse interests. He excels in managing

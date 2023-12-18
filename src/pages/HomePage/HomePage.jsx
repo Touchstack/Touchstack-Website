@@ -7,8 +7,8 @@ import CodeImage from "../../assets/images/code_hero_image_AdobeExpress .gif";
 import GreenCafe from "../../assets/images/GreenCafe logo  1.svg";
 import BargainMoto from "../../assets/images/BARGAIN MOTO 1.svg";
 import Heaf from "../../assets/images/heaf1 1.svg";
-import ReadyFx from "../../assets/images/readyfx 1.svg";
-import Logo1 from "../../assets/images/logo 1.svg";
+import CapitalGroup from "../../assets/images/CapitalGroup1.png";
+import FleetOps from "../../assets/images/FleetOps.png";
 import Ecomm from "../../assets/images/e-commerce.svg";
 import FinTech from "../../assets/images/fintech.svg";
 import Saas from "../../assets/images/saas.svg";
@@ -140,10 +140,10 @@ const HomePage = () => {
                 <img src={Heaf} alt="" />
               </div>
               <div className="cursor-pointer transition duration-700 ease-in-out hover:scale-110">
-                <img src={ReadyFx} alt="" />
+                <img src={CapitalGroup} alt="" />
               </div>
               <div className="cursor-pointer transition duration-700 ease-in-out hover:scale-110">
-                <img src={Logo1} alt="" />
+                <img src={FleetOps} alt="" />
               </div>
             </div>
           </div>

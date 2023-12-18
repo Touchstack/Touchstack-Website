@@ -13,9 +13,9 @@ export const NavBarDropdown = () => {
         <p className="py-3 text-gray-400 font-appLight">PRODUCTS</p>
         <li>
           <a
-            href="https://calendly.com/productstouchstacktechnologies/salesandinventorydemo"
-            target="_blank"
-            rel="noreferrer"
+            href="/projects/sales"
+            //target="_blank"
+            //rel="noreferrer"
             className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
           >
             <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
@@ -26,9 +26,9 @@ export const NavBarDropdown = () => {
         </li>
         <li>
           <a
-            href="https://calendly.com/productstouchstacktechnologies/human-resource-management-system-demo"
-            target="_blank"
-            rel="noreferrer"
+            href="/projects/hrm"
+            //target="_blank"
+            //rel="noreferrer"
             className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
           >
             <div className="inline-flex items-center bg-black p-2 mr-2 rounded-md">
