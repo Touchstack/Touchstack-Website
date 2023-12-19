@@ -1,6 +1,6 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Award from "../../assets/images/award.jpg";
+import Bee from "../../assets/images/BrianBlog.png";
 import CloudImg from "../../assets/images/cloud2.jpg";
 import CybersecurityImage from "../../assets/images/cybersecurity.jpg";
 import AiImg from "../../assets/images/ai.png";
@@ -86,7 +86,7 @@ const BlogPage = () => {
                 </div>
               </div>
               <div>
-                <img className="rounded-3xl mt-4" src={Award} alt="" />
+                <img className="rounded-3xl mt-4" src={Bee} alt="" />
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ const BlogPage = () => {
           <div className="flex mt-5 flex-col justify-center items-start text-white py-2 px-2 card">
             <a href="/article/brian-leadership-award">
               <img
-                src={Award}
+                src={Bee}
                 alt=""
                 className="lg:h-[260px] md:w-[850px] rounded-2xl"
               />

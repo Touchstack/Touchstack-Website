@@ -213,13 +213,14 @@ const FindUs = () => {
                   htmlFor="how_did_you_hear_about_us"
                   className="block mb-2 text-base text-white font-EncodeMedium dark:text-white"
                 >
-                  How did you hear about us ?
+                  How did you hear about us?
                 </label>
                 <select
                   id="how_did_you_hear_about_us"
                   className="font-EncodeRegular bg-inherit border border-gray-300 text-white focus:border-green-300 focus:ring-1 focus:outline-none focus:ring-green-300 text-sm rounded-lg block w-80 p-4"
                   onChange={handleChange}
                   value={formData.how_did_you_hear_about_us}
+                  style={{ appearance: 'none', }}
                 >
                   <option value="Twitter">Twitter</option>
                   <option value="LinkedIn">LinkedIn</option>
@@ -228,6 +229,7 @@ const FindUs = () => {
                   <option value="Recommendation">A Recommendation</option>
                 </select>
               </div>
+
               <button
                 type="submit"
                 className="font-EncodeRegular transition duration-700 ease-in-out hover:scale-110 inline-flex justify-center items-center py-4 lg:px-16 md:px-14 sm:px-10 px-8 text-lg text-center text-black rounded-lg bg-gradient-to-r from-[#2EFFE1] to-[#7DEE53]"
@@ -277,7 +279,7 @@ const FindUs = () => {
             href="mailto:info@touchstacktecnologies.com"
             className="mb-6 text-lg hover:text-green-400 underline font-EncodeMedium text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            brian@touchstacktechnologies.com
+            info@touchstacktechnologies.com
           </a>
         </div>
       </div>

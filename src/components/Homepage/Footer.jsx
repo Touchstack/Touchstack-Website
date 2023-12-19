@@ -208,7 +208,7 @@ export default function Footer({ onLinkClick }) {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/touchstack.tech/?hl=en"
+                href="https://www.instagram.com/touchstacktechnologies/?hl=en"
                 rel="noreferrer"
                 target="_blank"
                 className="text-white"

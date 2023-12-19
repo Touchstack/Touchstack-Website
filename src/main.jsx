@@ -22,12 +22,12 @@ import VrArticle from './pages/BlogPage/VrArticle.jsx';
 const router = createBrowserRouter([
   { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
   {
-    path: "/projects/sales",
+    path: "/products/sims",
     element: <SalesInventoryPage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/projects/hrm",
+    path: "/products/hrm",
     element: <HumanResourcePage />,
     errorElement: <ErrorPage />,
   },

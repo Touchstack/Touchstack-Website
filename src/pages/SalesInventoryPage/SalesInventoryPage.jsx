@@ -14,7 +14,7 @@ const SalesInventoryPage = () => {
         <section className="lg:h-[600px] md:h-[700px] h-[600px] bg-[url('/src/assets/images/hero_bg.jpg')]">
           <div className="py-10 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <h1 className="mb-4 pt-10 text-4xl font-EncodeBold font-normal leading-none text-white md:text-4xl lg:text-6xl">
-            Unlock Efficiency, Boost <br/> Sales
+             Manage your inventory <p className='mt-6'>efficiently</p> 
             </h1>
             <p className="mb-8 text-sm font-EncodeRegular text-[#8A8A8A] lg:text-lg sm:px-16 xl:px-48">
             From order processing to dynamic reporting, 
