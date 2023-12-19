@@ -5,7 +5,7 @@ import Abdul from "../../assets/images/abdul.jpg";
 import Susanna from "../../assets/images/susan.jpg";
 import Bernice from "../../assets/images/bernice.jpeg";
 import Jemima from "../../assets/images/dede.jpeg";
-import Haminda from "../../assets/images/Haminda.jpg";
+import Haminda from "../../assets/images/HamdiaNew.png";
 import Quist from "../../assets/images/Elinam2.jpg";
 import Buerkie from "../../assets/images/Winnifred.jpg";
 
