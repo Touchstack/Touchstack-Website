@@ -255,7 +255,7 @@ const FindUs = () => {
             Location
           </h1>
           <p className="mb-6 text-lg font-EncodeMedium text-gray-500 lg:text-xl dark:text-gray-400">
-            Inside buro. Ghana, Osu Close, Plot n.7Accra
+            Inside buro. Plot n.7, Osu Close. Accra-Ghana
           </p>
         </div>
         <div className="lg:text-left md:text-center text-center">
