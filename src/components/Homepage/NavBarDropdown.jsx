@@ -13,7 +13,7 @@ export const NavBarDropdown = () => {
         <p className="py-3 text-gray-400 font-appLight">PRODUCTS</p>
         <li>
           <a
-            href="/projects/sales"
+            href="/products/sims"
             //target="_blank"
             //rel="noreferrer"
             className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
@@ -26,7 +26,7 @@ export const NavBarDropdown = () => {
         </li>
         <li>
           <a
-            href="/projects/hrm"
+            href="/products/hrm"
             //target="_blank"
             //rel="noreferrer"
             className="block px-2 py-3 hover:bg-green-100 dark:hover:bg-green-100"
