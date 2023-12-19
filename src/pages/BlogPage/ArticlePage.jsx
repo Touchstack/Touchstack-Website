@@ -1,6 +1,6 @@
 import NavBar from "../../components/Homepage/NavBar";
 import Footer from "../../components/Homepage/Footer";
-import Bee from "../../assets/images/BrianBlog.png";
+import BrainPhoto from "../../assets/images/BrainPhoto.png";
 import Clock from "../../assets/images/clock.svg";
 import Internet from "../../assets/images/Internet.svg";
 
@@ -45,7 +45,7 @@ const ArticlePage = () => {
             </div>
 
             <div className="flex justify-center items-center">
-              <img src={Bee} alt="/" />
+              <img src={BrainPhoto} alt="/" />
             </div>
 
             <div className="py-4">
