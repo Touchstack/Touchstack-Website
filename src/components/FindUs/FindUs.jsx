@@ -68,6 +68,7 @@ const FindUs = () => {
     }
   };
 
+
   const ErrorAlert = ({ errorText }) => {
     return (
       <motion.div
@@ -131,6 +132,60 @@ const FindUs = () => {
       </motion.div>
     );
   };
+
+  const CustomDropdown = ({ value, onChange }) => {
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const handleToggle = () => {
+      setIsOpen(!isOpen);
+    };
+  
+    const handleSelect = (selectedValue) => {
+      setIsOpen(false);
+      onChange(selectedValue);
+    };
+  
+    const dropdownOptions = [
+      { value: 'Twitter', label: 'Twitter' },
+      { value: 'LinkedIn', label: 'LinkedIn' },
+      { value: 'Instagram', label: 'Instagram' },
+      { value: 'Facebook', label: 'Facebook' },
+      { value: 'Recommendation', label: 'A Recommendation' },
+    ];
+  
+    return (
+      <div className="mb-6 relative">
+        <label
+          htmlFor="how_did_you_hear_about_us"
+          className="block mb-2 text-base text-white font-EncodeMedium dark:text-white"
+        >
+          How did you hear about us?
+        </label>
+        <div className="relative">
+          <div
+            onClick={handleToggle}
+            className="cursor-pointer font-EncodeRegular bg-inherit border border-gray-300 text-white focus:border-green-300 focus:ring-1 focus:outline-none focus:ring-green-300 text-sm rounded-lg block w-80 p-4"
+          >
+            {value}
+          </div>
+          {isOpen && (
+            <div className="absolute z-10 mt-2 w-80 bg-white border border-gray-300 rounded-md shadow-md">
+              {dropdownOptions.map((option) => (
+                <div
+                  key={option.value}
+                  onClick={() => handleSelect(option.value)}
+                  className="p-2 cursor-pointer hover:bg-gray-100"
+                >
+                  {option.label}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
+  
 
   return (
     <section className="bg-cover bg-gray-900 bg-no-repeat bg-[url('images/bg-contact.png')] rounded-none">
@@ -209,25 +264,16 @@ const FindUs = () => {
                 </div>
               </div>
               <div className="mb-6">
-                <label
-                  htmlFor="how_did_you_hear_about_us"
-                  className="block mb-2 text-base text-white font-EncodeMedium dark:text-white"
-                >
-                  How did you hear about us?
-                </label>
-                <select
-                  id="how_did_you_hear_about_us"
-                  className="font-EncodeRegular bg-inherit border border-gray-300 text-white focus:border-green-300 focus:ring-1 focus:outline-none focus:ring-green-300 text-sm rounded-lg block w-80 p-4"
-                  onChange={handleChange}
+                {/* Replace the previous select dropdown with the custom dropdown */}
+                <CustomDropdown
                   value={formData.how_did_you_hear_about_us}
-                  style={{ appearance: 'none', }}
-                >
-                  <option value="Twitter">Twitter</option>
-                  <option value="LinkedIn">LinkedIn</option>
-                  <option value="Instagram">Instagram</option>
-                  <option value="Facebook">Facebook</option>
-                  <option value="Recommendation">A Recommendation</option>
-                </select>
+                  onChange={(value) =>
+                    setFormData({
+                      ...formData,
+                      how_did_you_hear_about_us: value,
+                    })
+                  }
+                />
               </div>
 
               <button
@@ -268,7 +314,7 @@ const FindUs = () => {
             href="tel:+233 20 376 7382"
             className="mb-6 text-lg font-EncodeMedium hover:text-green-400 hover:underline text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            +233 20 376 7382
+            +233 20 335 0447
           </a>
         </div>
         <div className="lg:text-left md:text-center text-center">
