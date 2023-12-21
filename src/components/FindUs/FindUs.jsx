@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ClipLoader } from "react-spinners";
 import { motion } from "framer-motion";
+import { IoIosArrowDown } from 'react-icons/io';
 import axios from "axios";
 
 const FindUs = () => {
@@ -164,12 +165,22 @@ const FindUs = () => {
         <div className="relative">
           <div
             onClick={handleToggle}
-            className="cursor-pointer font-EncodeRegular bg-inherit border border-gray-300 text-white focus:border-green-300 focus:ring-1 focus:outline-none focus:ring-green-300 text-sm rounded-lg block w-80 p-4"
+            className="flex justify-between items-center cursor-pointer font-EncodeRegular bg-inherit border border-gray-300 text-white focus:border-green-300 focus:ring-1 focus:outline-none focus:ring-green-300 text-sm rounded-lg  w-80 p-4"
+            style={{
+              backdropFilter: isOpen ? "blur(10px)" : "none",
+              backgroundColor: isOpen ? "rgba(255, 255, 255, 0.5)" : "transparent",
+            }}
           >
             {value}
+            <IoIosArrowDown className="ml-2" />
           </div>
           {isOpen && (
-            <div className="absolute z-10 mt-2 w-80 bg-white border border-gray-300 rounded-md shadow-md">
+            <div className="absolute z-10 mt-2 w-80 bg-gray-200 border border-gray-300 rounded-md shadow-md"
+              style={{
+                backdropFilter: "blur(10px)",
+                backgroundColor: "rgba(255, 255, 255, 0.5)",
+              }}
+            >
               {dropdownOptions.map((option) => (
                 <div
                   key={option.value}
