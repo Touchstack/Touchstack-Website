@@ -1,15 +1,17 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Footer from "../Homepage/Footer";
 import { GrowthStage } from "./GrowthStage";
 import { EarlyStage } from "./EarlyStage";
 
 const Solutions = () => {
-  const [status, setStatus] = useState(false);
+  const [status, setStatus] = useState(true);
+  const statusRef = useRef(status);
   
   console.log(status);
 
   const handleFooterLinkClick = (newStatus) => {
     setStatus(!newStatus);
+    statusRef.current = newStatus;
   };
   return (
     <section className="bg-cover bg-no-repeat bg-black bg-[url('/src/assets/images/bg-solutions.png')] rounded-none lg:h-[25rem] md:h-[20rem] sm:h-[20rem] h-[20rem]">
