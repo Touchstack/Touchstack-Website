@@ -22,6 +22,14 @@ code {
     monospace;
 }
 
+.text-gradient {
+  background: linear-gradient(90deg, var(--gradient-start) 0%, var(--gradient-middle) 50%, var(--gradient-end) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
 @font-face {
   font-family: "EncodeSans-Black";
   src: url("../src//assets/fonts/EncodeSans-Black.ttf");
@@ -86,4 +94,59 @@ code {
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../src//assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Bold";
+  src: url("../src//assets/fonts/SpaceGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Medium";
+  src: url("../src//assets/fonts/SpaceGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-SemiBold";
+  src: url("../src//assets/fonts/SpaceGrotesk-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Regular";
+  src: url("../src//assets/fonts/SpaceGrotesk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url("../src//assets/fonts/DMSans_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DMSans-light";
+  src: url("../src//assets/fonts/DMSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url("../src//assets/fonts/DMSans_24pt-Bold.ttf");
+}
+
+@font-face {
+  font-family: "DMSans-SemiBold";
+  src: url("../src//assets/fonts/DMSans_24pt-semiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../src//assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../src//assets/fonts/Inter-Light.ttf");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../src//assets/fonts/Inter-SemiBold.ttf");
 }
