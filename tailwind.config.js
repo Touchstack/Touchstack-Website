@@ -23,6 +23,17 @@ export default {
         MontBold: ["Montserrat-Bold", "sans-serif"],
         MontSemiBold: ["Montserrat-SemiBold", "sans-serif"],
         MontMedium: ["Montserrat-Medium", "sans-serif"],
+        SpaceBold: ["SpaceGrotesk-Bold", "sans-serif"],
+        SpaceMedium: ["SpaceGrotesk-Medium", "sans-serif"],
+        SpaceSemiBold: ["SpaceGrotesk-SemiBold", "sans-serif"],
+        SpaceRegular: ["SpaceGrotesk-Regular", "sans-serif"],
+        DMRegular: ["DMSans-Regular", "sans-serif"],
+        DMBold: ["DMSans-Bold", "sans-serif"],
+        DMSemiBold: ["DMSans-SemiBold", "sans-serif"],
+        DMSansLight: ["DMSans-Light", "sans-serif"],
+        InterLight: ["Inter-Light", "sans-serif"],
+        InterRegular: ["Inter-Regular", "sans-serif"],
+        InterSemiBold: ["Inter-SemiBold", "sans-serif"],
       },
 
       colors: {
