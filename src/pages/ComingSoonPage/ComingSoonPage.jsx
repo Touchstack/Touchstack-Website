@@ -29,7 +29,7 @@ const ComingSoonPage = () => {
           </p>
 
           <div className='text-black font-InterSemiBold font-600 bg-white py-2 rounded-[8px] px-3 mt-10 hover:cursor-pointer transition duration-700 ease-in-out hover:scale-110'>
-            <a href="mailto:yourteam@example.com">
+            <a href="mailto:info@touchstacktechnologies.com">
                 Contact our team
             </a>
           </div>
