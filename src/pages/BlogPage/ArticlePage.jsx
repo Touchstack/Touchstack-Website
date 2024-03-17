@@ -34,7 +34,7 @@ const ArticlePage = () => {
             <div className="text-white font-EncodeBold py-12 lg:text-6xl md:text-4xl sm:text-2xl text-xl">
               <p className="">
                 Brian Adjei-Otchwemah Recognized With The “Outstanding
-                Leadership Award
+                Leadership Award”
               </p>
             </div>
             <div className="inline-flex gap-2 items-center font-EncodeRegular text-[#8A8A8A] py-4 xl:text-xl lg:text-lg md:text-sm sm:text-xs text-[10px]">
@@ -82,7 +82,7 @@ const ArticlePage = () => {
                 up-to-date with industry trends and constantly seeks out
                 opportunities to learn and grow. Brian’s natural problem-solving
                 skills, commitment to excellence, and ability to lead diverse
-                teams make him an invaluable asset to any organization..
+                teams make him an invaluable asset to any organization.
               </p>
             </div>
           </div>
