@@ -19,17 +19,17 @@ const ComingSoonPage = () => {
             <img src={NewLogo} alt="logo" className="md:w-[115px] w-[80px]" />
           </div>
 
-          <div className="text-[#FFFFFF] text-[8px] md:text-[12px] lg:text-[14px] font-SpaceBold">
+          <div className="text-[#FFFFFF] text-[12px] md:text-[12px] lg:text-[14px] font-SpaceBold">
             🚧 website under construction
           </div>
         </div>
 
         {/* Hero Area */}
         <div className="flex flex-col items-center justify-center text-[#FFFFFF] mt-[6.5rem]">
-          <h1 className="text-gradient font-SpaceBold text-[30.71px] md:text-[46.71px] lg:text-[66.55px] text-center">
+          <h1 className="text-gradient max-w-[960px] font-SpaceBold text-[40px] md:text-[46.71px] lg:text-[66.55px] text-center">
             Unlock the Potential of AI and Engineering Collaboration
           </h1>
-          <p className="font-700 text-[#FFFFFF] font-DMSansLight text-center w-12/12 md:w-9/12 lg:w-10/12 text-[14px] lg:text-[26.34px] md:text-[16.34px] mt-10">
+          <p className="font-700 text-[#FFFFFF] font-DMSansLight max-w-[960px] text-center w-12/12 md:w-9/12 lg:w-10/12 text-[14px] lg:text-[26.34px] md:text-[16.34px] mt-10">
             At Touch Stack Technologies, we believe in the power of synergy between artificial intelligence and human intellect. Our cutting-edge platform bridges the gap between AI algorithms and human expertise, creating a harmonious ecosystem where innovation thrives.
           </p>
           <div className="text-black font-InterSemiBold font-600 bg-white py-2 rounded-[8px] px-3 mt-10 hover:cursor-pointer transition duration-700 ease-in-out hover:scale-110">
